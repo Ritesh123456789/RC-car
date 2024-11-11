@@ -1,6 +1,7 @@
 # RC-car
 Autonomous RC Car Navigation through Cone-Based Tracks
-Welcome to the Autonomous RC Car Navigation repository! This project contains the codebase that enables an RC car to autonomously navigate through a track defined by cones. The system leverages a combination of ROS, simulation environments, and physical hardware (Raspberry Pi and Arduino) for both virtual and real-world testing.
+
+This project contains the codebase that enables an RC car to autonomously navigate through a track defined by cones. The system leverages a combination of ROS, simulation environments, and physical hardware (Raspberry Pi and Arduino) for both virtual and real-world testing.
 
 Features
 Autonomous Cone Navigation:
