@@ -1,6 +1,0 @@
-{
-  "package_name": "rslidar_msg",
-  "non_idl_tuples": [
-    "/home/ritesh/rc-car/ros2ws/src/rslidar_msg:msg/RslidarPacket.msg"
-  ]
-}

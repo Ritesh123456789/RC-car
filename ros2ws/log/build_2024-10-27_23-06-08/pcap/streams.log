@@ -1,8 +1,0 @@
-[0.575s] Invoking command in '/home/ritesh/rc-car/ros2ws/build/pcap': /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/pcap -- -j8 -l8
-[0.691s] [  3%] Built target SerializeTarget
-[0.741s] [ 44%] Built target pcap_static
-[0.766s] [ 85%] Built target pcap
-[0.793s] [ 95%] Built target fuzz_pcap
-[0.793s] [ 96%] Built target fuzz_both
-[0.794s] [100%] Built target fuzz_filter
-[0.862s] Invoked command in '/home/ritesh/rc-car/ros2ws/build/pcap' returned '0': /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/pcap -- -j8 -l8

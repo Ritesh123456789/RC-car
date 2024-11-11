@@ -1,6 +1,0 @@
-Invoking command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ritesh/rc-car/ros2ws/src/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2ws/install/eufs_msgs
-Invoked command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ritesh/rc-car/ros2ws/src/eufs_msgs -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2ws/install/eufs_msgs
-Invoking command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/eufs_msgs -- -j8 -l8
-Invoked command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/eufs_msgs -- -j8 -l8
-Invoking command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ritesh/rc-car/ros2ws/build/eufs_msgs
-Invoked command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ritesh/rc-car/ros2ws/build/eufs_msgs

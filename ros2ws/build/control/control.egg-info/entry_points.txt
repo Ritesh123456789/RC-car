@@ -1,3 +1,0 @@
-[console_scripts]
-give_control = control.give_control:main
-
