@@ -1,0 +1,5 @@
+[0.011s] Invoking command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/eufs_msgs -- -j8 -l8
+[0.060s] [0mCMake Error: The source directory "/home/ritesh/rc-car/ros2ws/src/eufs_msgs" does not exist.
+[0.061s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.061s] gmake: *** [Makefile:14571: cmake_check_build_system] Error 1
+[0.180s] Invoked command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ritesh/rc-car/ros2ws/build/eufs_msgs -- -j8 -l8

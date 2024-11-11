@@ -1,0 +1,3 @@
+source;share/read_data/hook/pythonpath.ps1
+source;share/read_data/hook/pythonpath.dsv
+source;share/read_data/hook/pythonpath.sh

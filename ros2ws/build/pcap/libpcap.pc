@@ -1,0 +1,18 @@
+#
+# pkg-config file for libpcap.
+#
+# These variables come from the configure script, so includedir and
+# libdir may be defined in terms of prefix and exec_prefix, so the
+# latter must be defined as well.
+#
+prefix="/home/ritesh/rc-car/ros2ws/install/pcap"
+exec_prefix="${prefix}"
+includedir="${prefix}/include"
+libdir="${exec_prefix}/lib"
+
+Name: libpcap
+Description: Platform-independent network traffic capture library
+Version: 1.10.1
+Libs: -L${libdir} -lpcap
+Libs.private:  -libverbs -lnl-3 -l/usr/lib/x86_64-linux-gnu/libssl.so -l/usr/lib/x86_64-linux-gnu/libcrypto.so -l/usr/lib/x86_64-linux-gnu/libdbus-1.so
+Cflags: -I${includedir}

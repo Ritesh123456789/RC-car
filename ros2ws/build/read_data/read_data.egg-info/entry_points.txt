@@ -1,0 +1,4 @@
+[console_scripts]
+read_imu = read_data.read_imu:main
+read_wheelspeed = read_data.read_wheelspeed:main
+

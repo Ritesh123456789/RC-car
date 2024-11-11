@@ -1,0 +1,28 @@
+[0m=============================================================[0m
+[0m-- POINT_TYPE is XYZI[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- CMake run for UNIX GNU Compiler[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- rs_driver Version : v1.5.16[0m
+[0m=============================================================[0m
+In file included from [01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/rs_driver/src/rs_driver/driver/input/input_factory.hpp:42[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/rs_driver/src/rs_driver/driver/lidar_driver_impl.hpp:41[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/rs_driver/src/rs_driver/api/lidar_driver.hpp:35[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/source/source_driver.hpp:37[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/manager/node_manager.cpp:34[m[K:
+[01m[K/home/ritesh/rc-car/ros2ws/src/rslidar_sdk/src/rs_driver/src/rs_driver/driver/input/input_pcap.hpp:43:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: No such file or directory
+   43 | #include [01;31m[K<pcap.h>[m[K
+      |          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:90: CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rslidar_sdk_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
