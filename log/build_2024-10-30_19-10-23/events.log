@@ -1,0 +1,557 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000273] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000291] (eufs_msgs) JobQueued: {'identifier': 'eufs_msgs', 'dependencies': OrderedDict()}
+[0.000571] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000591] (pcap) JobQueued: {'identifier': 'pcap', 'dependencies': OrderedDict()}
+[0.000606] (read_data) JobQueued: {'identifier': 'read_data', 'dependencies': OrderedDict()}
+[0.000621] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.000635] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ritesh/rc-car/install/rslidar_msg')])}
+[0.000654] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.008025] (control) JobStarted: {'identifier': 'control'}
+[0.011086] (controller) JobStarted: {'identifier': 'controller'}
+[0.014767] (eufs_msgs) JobStarted: {'identifier': 'eufs_msgs'}
+[0.018397] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.025348] (pcap) JobStarted: {'identifier': 'pcap'}
+[0.028742] (read_data) JobStarted: {'identifier': 'read_data'}
+[0.034282] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.034453] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ritesh/rc-car/ros2/src/rslidar_msg', '-DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/rslidar_msg'], 'cwd': '/home/ritesh/rc-car/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 56578 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car/ros2'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '679'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 56578 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099826] (-) TimerEvent: {}
+[0.200165] (-) TimerEvent: {}
+[0.303926] (-) TimerEvent: {}
+[0.404219] (-) TimerEvent: {}
+[0.504560] (-) TimerEvent: {}
+[0.563044] (eufs_msgs) JobProgress: {'identifier': 'eufs_msgs', 'progress': 'cmake'}
+[0.563110] (eufs_msgs) JobProgress: {'identifier': 'eufs_msgs', 'progress': 'build'}
+[0.563130] (eufs_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/build/eufs_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/build/eufs_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 56578 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car/ros2'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '679'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/build/eufs_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 56578 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble')]), 'shell': False}
+[0.604660] (-) TimerEvent: {}
+[0.705015] (-) TimerEvent: {}
+[0.806040] (-) TimerEvent: {}
+[0.872126] (pcap) JobProgress: {'identifier': 'pcap', 'progress': 'cmake'}
+[0.872270] (pcap) Command: {'cmd': ['/usr/bin/cmake', '/home/ritesh/rc-car/ros2ws/libpcap-1.10.1', '-DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/pcap'], 'cwd': '/home/ritesh/rc-car/build/pcap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 56578 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car/ros2'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '679'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/build/pcap'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 56578 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs')]), 'shell': False}
+[0.875543] (rslidar_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.875661] (rslidar_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.875719] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.875773] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.875824] (rslidar_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.875895] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.875955] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.876006] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.876055] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.876104] (rslidar_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.876155] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.876204] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.876254] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.876305] (rslidar_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.876354] (rslidar_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.876402] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.876450] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.876510] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.876562] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.876625] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.885059] (eufs_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/ritesh/rc-car/ros2ws/eufs_msgs" does not exist.\n'}
+[0.885315] (eufs_msgs) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.885378] (eufs_msgs) StderrLine: {'line': b'gmake: *** [Makefile:14571: cmake_check_build_system] Error 1\n'}
+[0.885434] (rslidar_msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.885961] (pcap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:7 (cmake_minimum_required):\n'}
+[0.886053] (pcap) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.886125] (pcap) StderrLine: {'line': b'  CMake.\n'}
+[0.886176] (pcap) StderrLine: {'line': b'\n'}
+[0.886224] (pcap) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.886275] (pcap) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.886323] (pcap) StderrLine: {'line': b'\n'}
+[0.886370] (pcap) StderrLine: {'line': b'\x1b[0m\n'}
+[0.886737] (pcap) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_policy):\n'}
+[0.887073] (pcap) StderrLine: {'line': b'  The OLD behavior for policy CMP0042 will be removed from a future version\n'}
+[0.887156] (pcap) StderrLine: {'line': b'  of CMake.\n'}
+[0.887232] (pcap) StderrLine: {'line': b'\n'}
+[0.887291] (pcap) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.887341] (pcap) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.887389] (pcap) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.887436] (pcap) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.887512] (pcap) StderrLine: {'line': b'\n'}
+[0.893284] (pcap) StderrLine: {'line': b'\x1b[0m\n'}
+[0.906113] (-) TimerEvent: {}
+[0.927549] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.930241] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.966831] (pcap) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.007015] (-) TimerEvent: {}
+[1.046516] (pcap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.064899] (pcap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.084243] (rslidar_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.103808] (rslidar_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.107080] (-) TimerEvent: {}
+[1.128760] (rslidar_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.139319] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.171250] (eufs_msgs) CommandEnded: {'returncode': 2}
+[1.176384] (control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/control', 'build', '--build-base', '/home/ritesh/rc-car/build/control/build', 'install', '--record', '/home/ritesh/rc-car/build/control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritesh/rc-car/ros2ws/src/control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ritesh', 'SSH_CLIENT': '140.82.222.70 56578 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ritesh', 'OLDPWD': '/home/ritesh/rc-car/ros2', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1009/bus', 'COLCON_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ritesh', 'WORHP_LICENSE_FILE': '/usr/include/worhp/worhp.lic', 'EUFS_MASTER': '/home/ritesh/feb-system-integration', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'HSL': '/lib/hsl-install/lib/', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '679', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1009', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ritesh/rc-car/build/control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.82.222.70 56578 10.0.0.227 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritesh/rc-car/build/control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/control/lib/python3.10/site-packages:/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'OMP_NUM_THREADS': '8', 'COLCON': '1', 'WORHP': '/usr', 'CMAKE_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs'}, 'shell': False}
+[1.195922] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/controller', 'build', '--build-base', '/home/ritesh/rc-car/build/controller/build', 'install', '--record', '/home/ritesh/rc-car/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritesh/rc-car/ros2/src/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ritesh', 'SSH_CLIENT': '140.82.222.70 56578 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ritesh', 'OLDPWD': '/home/ritesh/rc-car/ros2', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1009/bus', 'COLCON_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ritesh', 'WORHP_LICENSE_FILE': '/usr/include/worhp/worhp.lic', 'EUFS_MASTER': '/home/ritesh/feb-system-integration', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'HSL': '/lib/hsl-install/lib/', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '679', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1009', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ritesh/rc-car/build/controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.82.222.70 56578 10.0.0.227 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritesh/rc-car/build/controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/controller/lib/python3.10/site-packages:/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'OMP_NUM_THREADS': '8', 'COLCON': '1', 'WORHP': '/usr', 'CMAKE_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs'}, 'shell': False}
+[1.197033] (pcap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.210912] (-) TimerEvent: {}
+[1.224577] (pcap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.224844] (pcap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.225364] (pcap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.237516] (pcap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.311005] (-) TimerEvent: {}
+[1.321300] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.321554] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.411096] (-) TimerEvent: {}
+[1.459927] (pcap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.483397] (pcap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.483692] (pcap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.484302] (pcap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.490931] (pcap) StdoutLine: {'line': b'-- Checking C compiler flag -std=gnu99\n'}
+[1.491317] (pcap) StdoutLine: {'line': b'-- Performing Test std-gnu99\n'}
+[1.511243] (-) TimerEvent: {}
+[1.512391] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.518934] (rslidar_msg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.611355] (-) TimerEvent: {}
+[1.613064] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.640475] (pcap) StdoutLine: {'line': b'-- Performing Test std-gnu99 - Success\n'}
+[1.641528] (pcap) StdoutLine: {'line': b'-- Use DYNAMIC runtime\n'}
+[1.648228] (pcap) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[1.649469] (control) StdoutLine: {'line': b'running egg_info\n'}
+[1.651532] (control) StdoutLine: {'line': b'writing ../../../build/control/control.egg-info/PKG-INFO\n'}
+[1.652040] (control) StdoutLine: {'line': b'writing dependency_links to ../../../build/control/control.egg-info/dependency_links.txt\n'}
+[1.652394] (control) StdoutLine: {'line': b'writing entry points to ../../../build/control/control.egg-info/entry_points.txt\n'}
+[1.652683] (control) StdoutLine: {'line': b'writing requirements to ../../../build/control/control.egg-info/requires.txt\n'}
+[1.652965] (control) StdoutLine: {'line': b'writing top-level names to ../../../build/control/control.egg-info/top_level.txt\n'}
+[1.656041] (control) StdoutLine: {'line': b"reading manifest file '../../../build/control/control.egg-info/SOURCES.txt'\n"}
+[1.656152] (control) StdoutLine: {'line': b"writing manifest file '../../../build/control/control.egg-info/SOURCES.txt'\n"}
+[1.656218] (control) StdoutLine: {'line': b'running build\n'}
+[1.656318] (control) StdoutLine: {'line': b'running build_py\n'}
+[1.656399] (control) StdoutLine: {'line': b'copying control/give_control.py -> /home/ritesh/rc-car/build/control/build/lib/control\n'}
+[1.656537] (control) StdoutLine: {'line': b'running install\n'}
+[1.656742] (control) StdoutLine: {'line': b'running install_lib\n'}
+[1.657462] (control) StdoutLine: {'line': b'copying /home/ritesh/rc-car/build/control/build/lib/control/give_control.py -> /home/ritesh/rc-car/install/control/lib/python3.10/site-packages/control\n'}
+[1.658205] (control) StdoutLine: {'line': b'byte-compiling /home/ritesh/rc-car/install/control/lib/python3.10/site-packages/control/give_control.py to give_control.cpython-310.pyc\n'}
+[1.659186] (control) StdoutLine: {'line': b'running install_data\n'}
+[1.659351] (control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.661509] (control) StdoutLine: {'line': b"removing '/home/ritesh/rc-car/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.661669] (control) StdoutLine: {'line': b'Copying ../../../build/control/control.egg-info to /home/ritesh/rc-car/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info\n'}
+[1.662612] (control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.690052] (control) StdoutLine: {'line': b'Installing give_control script to /home/ritesh/rc-car/install/control/lib/control\n'}
+[1.690647] (control) StdoutLine: {'line': b"writing list of installed files to '/home/ritesh/rc-car/build/control/install.log'\n"}
+[1.694967] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.695251] (controller) StdoutLine: {'line': b'writing ../../../build/controller/controller.egg-info/PKG-INFO\n'}
+[1.703478] (controller) StdoutLine: {'line': b'writing dependency_links to ../../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[1.703674] (controller) StdoutLine: {'line': b'writing entry points to ../../../build/controller/controller.egg-info/entry_points.txt\n'}
+[1.703740] (controller) StdoutLine: {'line': b'writing requirements to ../../../build/controller/controller.egg-info/requires.txt\n'}
+[1.703797] (controller) StdoutLine: {'line': b'writing top-level names to ../../../build/controller/controller.egg-info/top_level.txt\n'}
+[1.705084] (controller) StdoutLine: {'line': b"reading manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.705999] (controller) StdoutLine: {'line': b"writing manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.707415] (controller) StdoutLine: {'line': b'running build\n'}
+[1.707803] (controller) StdoutLine: {'line': b'running build_py\n'}
+[1.707897] (controller) StdoutLine: {'line': b'copying controller/give_c.py -> /home/ritesh/rc-car/build/controller/build/lib/controller\n'}
+[1.709115] (controller) StdoutLine: {'line': b'running install\n'}
+[1.709216] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.713339] (controller) StdoutLine: {'line': b'copying /home/ritesh/rc-car/build/controller/build/lib/controller/give_c.py -> /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller\n'}
+[1.713792] (-) TimerEvent: {}
+[1.713963] (controller) StdoutLine: {'line': b'byte-compiling /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller/give_c.py to give_c.cpython-310.pyc\n'}
+[1.714063] (controller) StdoutLine: {'line': b'running install_data\n'}
+[1.716922] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.719345] (controller) StdoutLine: {'line': b"removing '/home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.721122] (controller) StdoutLine: {'line': b'Copying ../../../build/controller/controller.egg-info to /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info\n'}
+[1.721197] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.737465] (control) CommandEnded: {'returncode': 0}
+[1.758009] (controller) StdoutLine: {'line': b'Installing give_c script to /home/ritesh/rc-car/install/controller/lib/controller\n'}
+[1.758784] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/ritesh/rc-car/build/controller/install.log'\n"}
+[1.772744] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[1.785344] (controller) CommandEnded: {'returncode': 0}
+[1.807246] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[1.811995] (pcap) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[1.812147] (pcap) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[1.815415] (-) TimerEvent: {}
+[1.875030] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/my_robot_controller', 'build', '--build-base', '/home/ritesh/rc-car/build/my_robot_controller/build', 'install', '--record', '/home/ritesh/rc-car/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritesh/rc-car/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ritesh', 'SSH_CLIENT': '140.82.222.70 56578 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ritesh', 'OLDPWD': '/home/ritesh/rc-car/ros2', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1009/bus', 'COLCON_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ritesh', 'WORHP_LICENSE_FILE': '/usr/include/worhp/worhp.lic', 'EUFS_MASTER': '/home/ritesh/feb-system-integration', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'HSL': '/lib/hsl-install/lib/', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '679', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1009', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ritesh/rc-car/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.82.222.70 56578 10.0.0.227 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritesh/rc-car/build/my_robot_controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages:/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'OMP_NUM_THREADS': '8', 'COLCON': '1', 'WORHP': '/usr', 'CMAKE_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs'}, 'shell': False}
+[1.916351] (read_data) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/read_data', 'build', '--build-base', '/home/ritesh/rc-car/build/read_data/build', 'install', '--record', '/home/ritesh/rc-car/build/read_data/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritesh/rc-car/ros2ws/src/read_data', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ritesh', 'SSH_CLIENT': '140.82.222.70 56578 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ritesh', 'OLDPWD': '/home/ritesh/rc-car/ros2', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1009/bus', 'COLCON_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ritesh', 'WORHP_LICENSE_FILE': '/usr/include/worhp/worhp.lic', 'EUFS_MASTER': '/home/ritesh/feb-system-integration', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'HSL': '/lib/hsl-install/lib/', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '679', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1009', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ritesh/rc-car/build/read_data', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.82.222.70 56578 10.0.0.227 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritesh/rc-car/build/read_data/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/read_data/lib/python3.10/site-packages:/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'OMP_NUM_THREADS': '8', 'COLCON': '1', 'WORHP': '/usr', 'CMAKE_PREFIX_PATH': '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs'}, 'shell': False}
+[1.917128] (-) TimerEvent: {}
+[1.971186] (pcap) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[1.971415] (pcap) StdoutLine: {'line': b'-- Looking for unistd.h\n'}
+[2.017234] (-) TimerEvent: {}
+[2.120929] (-) TimerEvent: {}
+[2.131371] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.138918] (pcap) StdoutLine: {'line': b'-- Looking for unistd.h - found\n'}
+[2.139094] (pcap) StdoutLine: {'line': b'-- Looking for bitypes.h\n'}
+[2.159512] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.160255] (my_robot_controller) StdoutLine: {'line': b'writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[2.160851] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[2.160993] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[2.161358] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[2.162627] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[2.168199] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.168319] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[2.168430] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[2.168539] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[2.170095] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[2.170198] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[2.172234] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[2.172595] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.177159] (my_robot_controller) StdoutLine: {'line': b"removing '/home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.177423] (my_robot_controller) StdoutLine: {'line': b'Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[2.182911] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[2.208146] (pcap) StdoutLine: {'line': b'-- Looking for bitypes.h - not found\n'}
+[2.208561] (pcap) StdoutLine: {'line': b'-- Looking for sys/ioccom.h\n'}
+[2.223544] (-) TimerEvent: {}
+[2.224677] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.224853] (my_robot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.224956] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.225025] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_controller script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller\n'}
+[2.227823] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ritesh/rc-car/build/my_robot_controller/install.log'\n"}
+[2.229215] (read_data) StdoutLine: {'line': b'running egg_info\n'}
+[2.230515] (read_data) StdoutLine: {'line': b'writing ../../../build/read_data/read_data.egg-info/PKG-INFO\n'}
+[2.230656] (read_data) StdoutLine: {'line': b'writing dependency_links to ../../../build/read_data/read_data.egg-info/dependency_links.txt\n'}
+[2.230999] (read_data) StdoutLine: {'line': b'writing entry points to ../../../build/read_data/read_data.egg-info/entry_points.txt\n'}
+[2.231305] (read_data) StdoutLine: {'line': b'writing requirements to ../../../build/read_data/read_data.egg-info/requires.txt\n'}
+[2.231575] (read_data) StdoutLine: {'line': b'writing top-level names to ../../../build/read_data/read_data.egg-info/top_level.txt\n'}
+[2.233373] (read_data) StdoutLine: {'line': b"reading manifest file '../../../build/read_data/read_data.egg-info/SOURCES.txt'\n"}
+[2.234423] (read_data) StdoutLine: {'line': b"writing manifest file '../../../build/read_data/read_data.egg-info/SOURCES.txt'\n"}
+[2.234687] (read_data) StdoutLine: {'line': b'running build\n'}
+[2.235073] (read_data) StdoutLine: {'line': b'running build_py\n'}
+[2.235527] (read_data) StdoutLine: {'line': b'running install\n'}
+[2.235979] (read_data) StdoutLine: {'line': b'running install_lib\n'}
+[2.237367] (read_data) StdoutLine: {'line': b'running install_data\n'}
+[2.237655] (read_data) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.239440] (read_data) StdoutLine: {'line': b"removing '/home/ritesh/rc-car/install/read_data/lib/python3.10/site-packages/read_data-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.240937] (read_data) StdoutLine: {'line': b'Copying ../../../build/read_data/read_data.egg-info to /home/ritesh/rc-car/install/read_data/lib/python3.10/site-packages/read_data-0.0.0-py3.10.egg-info\n'}
+[2.241039] (read_data) StdoutLine: {'line': b'running install_scripts\n'}
+[2.264490] (my_robot_controller) CommandEnded: {'returncode': 0}
+[2.265015] (read_data) StdoutLine: {'line': b'Installing read_imu script to /home/ritesh/rc-car/install/read_data/lib/read_data\n'}
+[2.265369] (read_data) StdoutLine: {'line': b'Installing read_wheelspeed script to /home/ritesh/rc-car/install/read_data/lib/read_data\n'}
+[2.265700] (read_data) StdoutLine: {'line': b"writing list of installed files to '/home/ritesh/rc-car/build/read_data/install.log'\n"}
+[2.274261] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[2.289814] (pcap) StdoutLine: {'line': b'-- Looking for sys/ioccom.h - not found\n'}
+[2.289954] (pcap) StdoutLine: {'line': b'-- Looking for sys/sockio.h\n'}
+[2.290022] (read_data) CommandEnded: {'returncode': 0}
+[2.295204] (read_data) JobEnded: {'identifier': 'read_data', 'rc': 0}
+[2.323635] (-) TimerEvent: {}
+[2.336872] (pcap) StdoutLine: {'line': b'-- Looking for sys/sockio.h - not found\n'}
+[2.337303] (pcap) StdoutLine: {'line': b'-- Looking for sys/select.h\n'}
+[2.423789] (-) TimerEvent: {}
+[2.484184] (pcap) StdoutLine: {'line': b'-- Looking for sys/select.h - found\n'}
+[2.484561] (pcap) StdoutLine: {'line': b'-- Looking for netpacket/packet.h\n'}
+[2.523883] (-) TimerEvent: {}
+[2.592127] (pcap) StdoutLine: {'line': b'-- Looking for netpacket/packet.h - found\n'}
+[2.592325] (pcap) StdoutLine: {'line': b'-- Looking for 4 include files sys/types.h, ..., net/pfvar.h\n'}
+[2.625356] (-) TimerEvent: {}
+[2.644012] (pcap) StdoutLine: {'line': b'-- Looking for 4 include files sys/types.h, ..., net/pfvar.h - not found\n'}
+[2.644291] (pcap) StdoutLine: {'line': b'-- Looking for netinet/if_ether.h\n'}
+[2.702434] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.725444] (-) TimerEvent: {}
+[2.763182] (pcap) StdoutLine: {'line': b'-- Looking for netinet/if_ether.h - found\n'}
+[2.763483] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE___ATOMIC_LOAD_N\n'}
+[2.825548] (-) TimerEvent: {}
+[2.894549] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE___ATOMIC_LOAD_N - Success\n'}
+[2.894802] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE___ATOMIC_STORE_N\n'}
+[2.911651] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.925627] (-) TimerEvent: {}
+[2.938958] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.939336] (rslidar_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.966982] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.967348] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.967483] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.967608] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.990720] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.025719] (-) TimerEvent: {}
+[3.026571] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE___ATOMIC_STORE_N - Success\n'}
+[3.026813] (pcap) StdoutLine: {'line': b'-- Looking for strerror\n'}
+[3.059733] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.084988] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.093124] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.098105] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.106939] (rslidar_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.125891] (-) TimerEvent: {}
+[3.146825] (rslidar_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.150990] (rslidar_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ritesh/rc-car/build/rslidar_msg\n'}
+[3.165018] (rslidar_msg) CommandEnded: {'returncode': 0}
+[3.167932] (pcap) StdoutLine: {'line': b'-- Looking for strerror - found\n'}
+[3.168074] (pcap) StdoutLine: {'line': b'-- Looking for strerror_r\n'}
+[3.168460] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[3.169571] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/build/rslidar_msg', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 56578 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car/ros2'), ('SSH_TTY', '/dev/pts/4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '679'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 56578 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble')]), 'shell': False}
+[3.226932] (-) TimerEvent: {}
+[3.259637] (rslidar_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.275420] (rslidar_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.308935] (rslidar_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_rslidar_msg\n'}
+[3.327009] (-) TimerEvent: {}
+[3.347004] (pcap) StdoutLine: {'line': b'-- Looking for strerror_r - found\n'}
+[3.347176] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_GNU_STRERROR_R\n'}
+[3.427116] (-) TimerEvent: {}
+[3.507367] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_GNU_STRERROR_R - Success\n'}
+[3.507924] (pcap) StdoutLine: {'line': b'-- Looking for vsnprintf\n'}
+[3.527188] (-) TimerEvent: {}
+[3.631933] (-) TimerEvent: {}
+[3.642982] (rslidar_msg) StdoutLine: {'line': b'[  6%] Built target rslidar_msg__cpp\n'}
+[3.662943] (pcap) StdoutLine: {'line': b'-- Looking for vsnprintf - found\n'}
+[3.663143] (pcap) StdoutLine: {'line': b'-- Looking for snprintf\n'}
+[3.668900] (rslidar_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.672019] (rslidar_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.676315] (rslidar_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.732027] (-) TimerEvent: {}
+[3.743663] (rslidar_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o\x1b[0m\n'}
+[3.788764] (rslidar_msg) StdoutLine: {'line': b'running egg_info\n'}
+[3.789443] (rslidar_msg) StdoutLine: {'line': b'creating rslidar_msg.egg-info\n'}
+[3.789677] (rslidar_msg) StdoutLine: {'line': b'writing rslidar_msg.egg-info/PKG-INFO\n'}
+[3.789857] (rslidar_msg) StdoutLine: {'line': b'writing dependency_links to rslidar_msg.egg-info/dependency_links.txt\n'}
+[3.790026] (rslidar_msg) StdoutLine: {'line': b'writing top-level names to rslidar_msg.egg-info/top_level.txt\n'}
+[3.790216] (rslidar_msg) StdoutLine: {'line': b"writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[3.795181] (rslidar_msg) StdoutLine: {'line': b"reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[3.795699] (rslidar_msg) StdoutLine: {'line': b"writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[3.832101] (-) TimerEvent: {}
+[3.836984] (pcap) StdoutLine: {'line': b'-- Looking for snprintf - found\n'}
+[3.837132] (pcap) StdoutLine: {'line': b'-- Looking for strlcpy\n'}
+[3.857481] (rslidar_msg) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_rslidar_msg_egg\n'}
+[3.865564] (rslidar_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_generator_c.so\x1b[0m\n'}
+[3.932944] (-) TimerEvent: {}
+[3.971913] (rslidar_msg) StdoutLine: {'line': b'[ 22%] Built target rslidar_msg__rosidl_generator_c\n'}
+[3.998358] (rslidar_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.002081] (rslidar_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.011298] (rslidar_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.012980] (pcap) StdoutLine: {'line': b'-- Looking for strlcpy - not found\n'}
+[4.013093] (pcap) StdoutLine: {'line': b'-- Looking for strlcat\n'}
+[4.033033] (-) TimerEvent: {}
+[4.049209] (rslidar_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[4.071429] (rslidar_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[4.078508] (rslidar_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[4.133122] (-) TimerEvent: {}
+[4.175038] (pcap) StdoutLine: {'line': b'-- Looking for strlcat - not found\n'}
+[4.175233] (pcap) StdoutLine: {'line': b'-- Looking for asprintf\n'}
+[4.233226] (-) TimerEvent: {}
+[4.333945] (-) TimerEvent: {}
+[4.387223] (pcap) StdoutLine: {'line': b'-- Looking for asprintf - found\n'}
+[4.387895] (pcap) StdoutLine: {'line': b'-- Looking for vasprintf\n'}
+[4.395041] (rslidar_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o\x1b[0m\n'}
+[4.434043] (-) TimerEvent: {}
+[4.487402] (rslidar_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[4.501759] (rslidar_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[4.509596] (rslidar_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.536926] (-) TimerEvent: {}
+[4.554340] (rslidar_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.559019] (rslidar_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.581564] (pcap) StdoutLine: {'line': b'-- Looking for vasprintf - found\n'}
+[4.582981] (pcap) StdoutLine: {'line': b'-- Looking for strtok_r\n'}
+[4.605148] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_introspection_c\n'}
+[4.628974] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_c\n'}
+[4.631491] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_cpp\n'}
+[4.636998] (-) TimerEvent: {}
+[4.666397] (rslidar_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.695564] (rslidar_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.730278] (pcap) StdoutLine: {'line': b'-- Looking for strtok_r - found\n'}
+[4.730537] (pcap) StdoutLine: {'line': b'-- Looking for vsyslog\n'}
+[4.737081] (-) TimerEvent: {}
+[4.765791] (rslidar_msg) StdoutLine: {'line': b'[ 67%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[4.804072] (rslidar_msg) StdoutLine: {'line': b'[ 67%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp\n'}
+[4.839921] (-) TimerEvent: {}
+[4.869215] (pcap) StdoutLine: {'line': b'-- Looking for vsyslog - found\n'}
+[4.869582] (pcap) StdoutLine: {'line': b'-- Looking for getaddrinfo\n'}
+[4.940016] (-) TimerEvent: {}
+[4.999001] (rslidar_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.040117] (-) TimerEvent: {}
+[5.051467] (pcap) StdoutLine: {'line': b'-- Looking for getaddrinfo - found\n'}
+[5.051734] (pcap) StdoutLine: {'line': b'-- Looking for putmsg\n'}
+[5.113766] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c\n'}
+[5.140213] (-) TimerEvent: {}
+[5.171647] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg\n'}
+[5.183199] (pcap) StdoutLine: {'line': b'-- Looking for putmsg - not found\n'}
+[5.183576] (pcap) StdoutLine: {'line': b'-- Looking for putmsg in str\n'}
+[5.206891] (rslidar_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.240327] (-) TimerEvent: {}
+[5.310276] (pcap) StdoutLine: {'line': b'-- Looking for putmsg in str - not found\n'}
+[5.310945] (pcap) StdoutLine: {'line': b'-- Looking for getnetbyname_r\n'}
+[5.340439] (-) TimerEvent: {}
+[5.442280] (-) TimerEvent: {}
+[5.515021] (pcap) StdoutLine: {'line': b'-- Looking for getnetbyname_r - found\n'}
+[5.515218] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_LINUX_GETNETBYNAME_R\n'}
+[5.542357] (-) TimerEvent: {}
+[5.604175] (eufs_msgs) JobEnded: {'identifier': 'eufs_msgs', 'rc': 2}
+[5.642453] (-) TimerEvent: {}
+[5.667252] (rslidar_msg) StdoutLine: {'line': b'[ 74%] Built target rslidar_msg__py\n'}
+[5.675027] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_LINUX_GETNETBYNAME_R - Success\n'}
+[5.675671] (pcap) StdoutLine: {'line': b'-- Looking for getprotobyname_r\n'}
+[5.713748] (rslidar_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_py.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o\x1b[0m\n'}
+[5.742585] (-) TimerEvent: {}
+[5.828641] (pcap) StdoutLine: {'line': b'-- Looking for getprotobyname_r - found\n'}
+[5.828989] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_LINUX_GETPROTOBYNAME_R\n'}
+[5.842663] (-) TimerEvent: {}
+[5.849939] (rslidar_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__rosidl_generator_py.so\x1b[0m\n'}
+[5.916054] (rslidar_msg) StdoutLine: {'line': b'[ 80%] Built target rslidar_msg__rosidl_generator_py\n'}
+[5.943560] (-) TimerEvent: {}
+[5.956961] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_LINUX_GETPROTOBYNAME_R - Success\n'}
+[5.957278] (pcap) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[5.979696] (rslidar_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.985441] (rslidar_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.995099] (rslidar_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.043682] (-) TimerEvent: {}
+[6.107096] (rslidar_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.149960] (pcap) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[6.150175] (-) TimerEvent: {}
+[6.150336] (pcap) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[6.166529] (rslidar_msg) StdoutLine: {'line': b'[ 93%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[6.172649] (rslidar_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.180948] (rslidar_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.250967] (-) TimerEvent: {}
+[6.256439] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.261387] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_c__pyext\n'}
+[6.268910] (pcap) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[6.269048] (pcap) StdoutLine: {'line': b'-- Check size of struct sockaddr_storage\n'}
+[6.289268] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 'SIGINT'}
+[6.351060] (-) TimerEvent: {}
+[6.397683] (pcap) StdoutLine: {'line': b'-- Check size of struct sockaddr_storage - done\n'}
+[6.400387] (pcap) StdoutLine: {'line': b'-- Check size of socklen_t\n'}
+[6.451178] (-) TimerEvent: {}
+[6.525897] (pcap) StdoutLine: {'line': b'-- Check size of socklen_t - done\n'}
+[6.526301] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_SOCKADDR_SA_LEN\n'}
+[6.551260] (-) TimerEvent: {}
+[6.602560] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_SOCKADDR_SA_LEN - Failed\n'}
+[6.602801] (pcap) StdoutLine: {'line': b'-- Looking for ffs\n'}
+[6.651398] (-) TimerEvent: {}
+[6.757956] (-) TimerEvent: {}
+[6.767926] (pcap) StdoutLine: {'line': b'-- Looking for ffs - found\n'}
+[6.768130] (pcap) StdoutLine: {'line': b'-- Looking for ffs\n'}
+[6.858073] (-) TimerEvent: {}
+[6.915643] (pcap) StdoutLine: {'line': b'-- Looking for ffs - found\n'}
+[6.915868] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton\n'}
+[6.958187] (-) TimerEvent: {}
+[7.041478] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton - found\n'}
+[7.041683] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton\n'}
+[7.058286] (-) TimerEvent: {}
+[7.114776] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton - not found\n'}
+[7.115272] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton\n'}
+[7.158381] (-) TimerEvent: {}
+[7.251054] (pcap) StdoutLine: {'line': b'-- Looking for ether_hostton - found\n'}
+[7.251256] (pcap) StdoutLine: {'line': b'-- Looking for native LFS support\n'}
+[7.261423] (-) TimerEvent: {}
+[7.361697] (-) TimerEvent: {}
+[7.413688] (pcap) StdoutLine: {'line': b'-- Looking for native LFS support - found\n'}
+[7.413904] (pcap) StdoutLine: {'line': b'-- Found LFS: TRUE  \n'}
+[7.413976] (pcap) StdoutLine: {'line': b'-- Looking for native fseeko support\n'}
+[7.461947] (-) TimerEvent: {}
+[7.563572] (-) TimerEvent: {}
+[7.585546] (pcap) StdoutLine: {'line': b'-- Looking for native fseeko support - found\n'}
+[7.586161] (pcap) StdoutLine: {'line': b'-- Found FSEEKO: TRUE  \n'}
+[7.587033] (pcap) StdoutLine: {'line': b'-- Support IPv6\n'}
+[7.590241] (pcap) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.663682] (-) TimerEvent: {}
+[7.724036] (pcap) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.724468] (pcap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.763792] (-) TimerEvent: {}
+[7.853871] (pcap) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.856304] (pcap) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.863865] (-) TimerEvent: {}
+[7.964156] (-) TimerEvent: {}
+[7.965995] (pcap) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.966727] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/types.h, net/bpf.h\n'}
+[8.031987] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/types.h, net/bpf.h - not found\n'}
+[8.032415] (pcap) StdoutLine: {'line': b'-- Looking for net/pfilt.h\n'}
+[8.064229] (-) TimerEvent: {}
+[8.095065] (pcap) StdoutLine: {'line': b'-- Looking for net/pfilt.h - not found\n'}
+[8.095272] (pcap) StdoutLine: {'line': b'-- Looking for net/enet.h\n'}
+[8.139931] (pcap) StdoutLine: {'line': b'-- Looking for net/enet.h - not found\n'}
+[8.140148] (pcap) StdoutLine: {'line': b'-- Looking for net/nit.h\n'}
+[8.164338] (-) TimerEvent: {}
+[8.196365] (pcap) StdoutLine: {'line': b'-- Looking for net/nit.h - not found\n'}
+[8.196729] (pcap) StdoutLine: {'line': b'-- Looking for sys/net/nit.h\n'}
+[8.258438] (pcap) StdoutLine: {'line': b'-- Looking for sys/net/nit.h - not found\n'}
+[8.258793] (pcap) StdoutLine: {'line': b'-- Looking for linux/socket.h\n'}
+[8.264395] (-) TimerEvent: {}
+[8.364657] (-) TimerEvent: {}
+[8.382949] (pcap) StdoutLine: {'line': b'-- Looking for linux/socket.h - found\n'}
+[8.383155] (pcap) StdoutLine: {'line': b'-- Looking for net/raw.h\n'}
+[8.437222] (pcap) StdoutLine: {'line': b'-- Looking for net/raw.h - not found\n'}
+[8.437597] (pcap) StdoutLine: {'line': b'-- Looking for sys/dlpi.h\n'}
+[8.464765] (-) TimerEvent: {}
+[8.503197] (pcap) StdoutLine: {'line': b'-- Looking for sys/dlpi.h - not found\n'}
+[8.503555] (pcap) StdoutLine: {'line': b'-- Looking for config/HaikuConfig.h\n'}
+[8.563200] (pcap) StdoutLine: {'line': b'-- Looking for config/HaikuConfig.h - not found\n'}
+[8.563476] (pcap) StdoutLine: {'line': b'-- Packet capture mechanism type: linux\n'}
+[8.565858] (-) TimerEvent: {}
+[8.572416] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/wireless.h\n'}
+[8.665967] (-) TimerEvent: {}
+[8.739587] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/wireless.h - found\n'}
+[8.739781] (pcap) StdoutLine: {'line': b"-- Checking for module 'libnl-3.0'\n"}
+[8.766047] (-) TimerEvent: {}
+[8.769672] (pcap) StdoutLine: {'line': b'--   Found libnl-3.0, version 3.5.0\n'}
+[8.832950] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_TPACKET_AUXDATA_TP_VLAN_TCI\n'}
+[8.866141] (-) TimerEvent: {}
+[8.967957] (-) TimerEvent: {}
+[8.983526] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_TPACKET_AUXDATA_TP_VLAN_TCI - Success\n'}
+[8.983933] (pcap) StdoutLine: {'line': b'-- Looking for getifaddrs\n'}
+[9.068065] (-) TimerEvent: {}
+[9.138097] (pcap) StdoutLine: {'line': b'-- Looking for getifaddrs - found\n'}
+[9.138301] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/types.h, ifaddrs.h\n'}
+[9.168152] (-) TimerEvent: {}
+[9.270297] (pcap) StdoutLine: {'line': b'-- Looking for include files sys/types.h, ifaddrs.h - found\n'}
+[9.270551] (-) TimerEvent: {}
+[9.270689] (pcap) StdoutLine: {'line': b'-- Find-interfaces mechanism type: getad\n'}
+[9.270762] (pcap) StdoutLine: {'line': b'-- Looking for linux/net_tstamp.h\n'}
+[9.372747] (-) TimerEvent: {}
+[9.400794] (pcap) StdoutLine: {'line': b'-- Looking for linux/net_tstamp.h - found\n'}
+[9.401350] (pcap) StdoutLine: {'line': b'-- Looking for include file linux/compiler.h\n'}
+[9.445435] (pcap) StdoutLine: {'line': b'-- Looking for include file linux/compiler.h - not found\n'}
+[9.446048] (pcap) StdoutLine: {'line': b'-- Looking for include file linux/usbdevice_fs.h\n'}
+[9.472827] (-) TimerEvent: {}
+[9.573290] (-) TimerEvent: {}
+[9.593961] (pcap) StdoutLine: {'line': b'-- Looking for include file linux/usbdevice_fs.h - found\n'}
+[9.594130] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_USBDEVFS_CTRLTRANSFER_BREQUESTTYPE\n'}
+[9.673399] (-) TimerEvent: {}
+[9.693702] (pcap) StdoutLine: {'line': b'-- Performing Test HAVE_STRUCT_USBDEVFS_CTRLTRANSFER_BREQUESTTYPE - Success\n'}
+[9.694069] (pcap) StdoutLine: {'line': b'-- Performing Test PCAP_SUPPORT_NETFILTER\n'}
+[9.773985] (-) TimerEvent: {}
+[9.824957] (pcap) StdoutLine: {'line': b'-- Performing Test PCAP_SUPPORT_NETFILTER - Success\n'}
+[9.825174] (pcap) StdoutLine: {'line': b'-- Performing Test PCAP_SUPPORT_NETMAP\n'}
+[9.870658] (pcap) StdoutLine: {'line': b'-- Performing Test PCAP_SUPPORT_NETMAP - Failed\n'}
+[9.874056] (-) TimerEvent: {}
+[9.878985] (pcap) StdoutLine: {'line': b'-- Executing Finddpdk\n'}
+[9.879339] (pcap) StdoutLine: {'line': b'-- Executing find_path\n'}
+[9.903206] (pcap) StdoutLine: {'line': b'-- Could NOT find dpdk (missing: dpdk_INCLUDE_DIRS) \n'}
+[9.903580] (pcap) StdoutLine: {'line': b'-- Looking for bluetooth/bluetooth.h\n'}
+[9.965340] (pcap) StdoutLine: {'line': b'-- Looking for bluetooth/bluetooth.h - not found\n'}
+[9.966976] (pcap) StdoutLine: {'line': b"-- Checking for module 'dbus-1'\n"}
+[9.974138] (-) TimerEvent: {}
+[10.001835] (pcap) StdoutLine: {'line': b'--   Found dbus-1, version 1.12.20\n'}
+[10.055937] (pcap) StdoutLine: {'line': b'-- Looking for ibv_get_device_list in ibverbs\n'}
+[10.077697] (-) TimerEvent: {}
+[10.178046] (-) TimerEvent: {}
+[10.182736] (pcap) StdoutLine: {'line': b'-- Looking for ibv_get_device_list in ibverbs - found\n'}
+[10.182950] (pcap) StdoutLine: {'line': b'-- Looking for infiniband/verbs.h\n'}
+[10.278161] (-) TimerEvent: {}
+[10.338634] (pcap) StdoutLine: {'line': b'-- Looking for infiniband/verbs.h - found\n'}
+[10.339150] (pcap) StdoutLine: {'line': b'-- Looking for ibv_create_flow\n'}
+[10.382028] (-) TimerEvent: {}
+[10.482338] (-) TimerEvent: {}
+[10.551019] (pcap) StdoutLine: {'line': b'-- Looking for ibv_create_flow - found\n'}
+[10.558083] (pcap) StdoutLine: {'line': b'-- Could NOT find DAG (missing: DAG_INCLUDE_DIR DAG_LIBRARY DAGCONF_LIBRARY) \n'}
+[10.558333] (pcap) StdoutLine: {'line': b'-- Looking for msg.h\n'}
+[10.585634] (-) TimerEvent: {}
+[10.606020] (pcap) StdoutLine: {'line': b'-- Looking for msg.h - not found\n'}
+[10.613438] (pcap) StdoutLine: {'line': b'-- Could NOT find SNF (missing: SNF_INCLUDE_DIR SNF_LIBRARY) \n'}
+[10.626321] (pcap) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:1836 (find_package):\n'}
+[10.626475] (pcap) StderrLine: {'line': b'  By not providing "FindAirPcap.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[10.626544] (pcap) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "AirPcap", but\n'}
+[10.626600] (pcap) StderrLine: {'line': b'  CMake did not find one.\n'}
+[10.626653] (pcap) StderrLine: {'line': b'\n'}
+[10.626703] (pcap) StderrLine: {'line': b'  Could not find a package configuration file provided by "AirPcap" with any\n'}
+[10.626752] (pcap) StderrLine: {'line': b'  of the following names:\n'}
+[10.626799] (pcap) StderrLine: {'line': b'\n'}
+[10.626846] (pcap) StderrLine: {'line': b'    AirPcapConfig.cmake\n'}
+[10.626914] (pcap) StderrLine: {'line': b'    airpcap-config.cmake\n'}
+[10.626965] (pcap) StderrLine: {'line': b'\n'}
+[10.627011] (pcap) StderrLine: {'line': b'  Add the installation prefix of "AirPcap" to CMAKE_PREFIX_PATH or set\n'}
+[10.627057] (pcap) StderrLine: {'line': b'  "AirPcap_DIR" to a directory containing one of the above files.  If\n'}
+[10.627114] (pcap) StderrLine: {'line': b'  "AirPcap" provides a separate development package or SDK, be sure it has\n'}
+[10.627160] (pcap) StderrLine: {'line': b'  been installed.\n'}
+[10.627206] (pcap) StderrLine: {'line': b'\n'}
+[10.627251] (pcap) StderrLine: {'line': b'\x1b[0m\n'}
+[10.634936] (pcap) StdoutLine: {'line': b'-- Could NOT find TC (missing: TC_INCLUDE_DIR TC_LIBRARY) \n'}
+[10.635054] (pcap) StdoutLine: {'line': b'-- Checking C compiler flag -fvisibility=hidden\n'}
+[10.635116] (pcap) StdoutLine: {'line': b'-- Performing Test fvisibility-hidden\n'}
+[10.685750] (-) TimerEvent: {}
+[10.745020] (pcap) StdoutLine: {'line': b'-- Performing Test fvisibility-hidden - Success\n'}
+[10.748955] (pcap) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2064 (message):\n'}
+[10.749120] (pcap) StderrLine: {'line': b'  Neither flex nor win_flex nor lex was found.\n'}
+[10.749182] (pcap) StderrLine: {'line': b'\n'}
+[10.749295] (pcap) StderrLine: {'line': b'\x1b[0m\n'}
+[10.749352] (pcap) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.749415] (pcap) StdoutLine: {'line': b'See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeOutput.log".\n'}
+[10.749474] (pcap) StdoutLine: {'line': b'See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeError.log".\n'}
+[10.764716] (pcap) JobEnded: {'identifier': 'pcap', 'rc': 'SIGINT'}
+[10.775548] (rslidar_sdk) JobSkipped: {'identifier': 'rslidar_sdk'}
+[10.775622] (-) EventReactorShutdown: {}

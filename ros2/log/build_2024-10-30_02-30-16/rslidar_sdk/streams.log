@@ -1,0 +1,57 @@
+[0.020s] Invoking command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ritesh/rc-car/ros2/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2/install/rslidar_sdk
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.385s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.535s] [0m=============================================================[0m
+[0.536s] [0m-- POINT_TYPE is XYZI[0m
+[0.536s] [0m=============================================================[0m
+[0.557s] [0m=============================================================[0m
+[0.557s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0.557s] [0m=============================================================[0m
+[0.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.920s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.925s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.934s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.027s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.027s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.152s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.196s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.269s] -- Looking for pthread.h
+[1.446s] -- Looking for pthread.h - found
+[1.446s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.641s] -- Found Threads: TRUE  
+[1.760s] [0m=============================================================[0m
+[1.760s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[1.760s] [0m=============================================================[0m
+[1.770s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.800s] -- Found rslidar_msg: 0.0.0 (/home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake)
+[1.821s] [0m=============================================================[0m
+[1.821s] [0m-- CMake run for UNIX GNU Compiler[0m
+[1.821s] [0m=============================================================[0m
+[1.821s] [0m=============================================================[0m
+[1.822s] [0m-- rs_driver Version : v1.5.16[0m
+[1.822s] [0m=============================================================[0m
+[1.960s] -- Configuring done
+[1.985s] -- Generating done
+[1.990s] -- Build files have been written to: /home/ritesh/rc-car/ros2/build/rslidar_sdk
+[2.011s] Invoked command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ritesh/rc-car/ros2/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2/install/rslidar_sdk
+[2.019s] Invoking command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ritesh/rc-car/ros2/build/rslidar_sdk -- -j8 -l8
+[2.127s] [ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[2.150s] [01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option ‘[01m[K-ENABLE_MODIFY_RECVBUF[m[K’
+[2.156s] gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:76: CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o] Error 1
+[2.157s] gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rslidar_sdk_node.dir/all] Error 2
+[2.157s] gmake: *** [Makefile:146: all] Error 2
+[2.165s] Invoked command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk' returned '2': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ritesh/rc-car/ros2/build/rslidar_sdk -- -j8 -l8

@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages",
+        "/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

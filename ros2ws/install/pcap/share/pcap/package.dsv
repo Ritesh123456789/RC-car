@@ -1,0 +1,9 @@
+source;share/pcap/hook/ld_library_path_lib.ps1
+source;share/pcap/hook/ld_library_path_lib.dsv
+source;share/pcap/hook/ld_library_path_lib.sh
+source;share/pcap/hook/path.ps1
+source;share/pcap/hook/path.dsv
+source;share/pcap/hook/path.sh
+source;share/pcap/hook/pythonscriptspath.ps1
+source;share/pcap/hook/pythonscriptspath.dsv
+source;share/pcap/hook/pythonscriptspath.sh

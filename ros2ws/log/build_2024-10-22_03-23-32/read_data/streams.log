@@ -1,0 +1,35 @@
+[0.514s] Invoking command in '/home/ritesh/rc-car/ros2ws/read_data': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/read_data/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/read_data build --build-base /home/ritesh/rc-car/ros2ws/build/read_data/build install --record /home/ritesh/rc-car/ros2ws/build/read_data/install.log --single-version-externally-managed install_data
+[0.670s] running egg_info
+[0.671s] writing ../build/read_data/read_data.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../build/read_data/read_data.egg-info/dependency_links.txt
+[0.671s] writing entry points to ../build/read_data/read_data.egg-info/entry_points.txt
+[0.672s] writing requirements to ../build/read_data/read_data.egg-info/requires.txt
+[0.672s] writing top-level names to ../build/read_data/read_data.egg-info/top_level.txt
+[0.673s] reading manifest file '../build/read_data/read_data.egg-info/SOURCES.txt'
+[0.674s] writing manifest file '../build/read_data/read_data.egg-info/SOURCES.txt'
+[0.674s] running build
+[0.674s] running build_py
+[0.674s] copying read_data/read_cone.py -> /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data
+[0.674s] copying read_data/read_imu.py -> /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data
+[0.674s] copying read_data/read_wheelspeed.py -> /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data
+[0.675s] copying read_data/allData.py -> /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data
+[0.675s] running install
+[0.675s] running install_lib
+[0.676s] copying /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data/read_cone.py -> /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data
+[0.676s] copying /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data/read_imu.py -> /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data
+[0.676s] copying /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data/read_wheelspeed.py -> /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data
+[0.676s] copying /home/ritesh/rc-car/ros2ws/build/read_data/build/lib/read_data/allData.py -> /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data
+[0.677s] byte-compiling /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data/read_cone.py to read_cone.cpython-310.pyc
+[0.677s] byte-compiling /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data/read_imu.py to read_imu.cpython-310.pyc
+[0.677s] byte-compiling /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data/read_wheelspeed.py to read_wheelspeed.cpython-310.pyc
+[0.678s] byte-compiling /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data/allData.py to allData.cpython-310.pyc
+[0.679s] running install_data
+[0.679s] copying package.xml -> /home/ritesh/rc-car/ros2ws/install/read_data/share/read_data
+[0.679s] running install_egg_info
+[0.680s] removing '/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data-0.0.0-py3.10.egg-info' (and everything under it)
+[0.681s] Copying ../build/read_data/read_data.egg-info to /home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages/read_data-0.0.0-py3.10.egg-info
+[0.682s] running install_scripts
+[0.697s] Installing read_imu script to /home/ritesh/rc-car/ros2ws/install/read_data/lib/read_data
+[0.697s] Installing read_wheelspeed script to /home/ritesh/rc-car/ros2ws/install/read_data/lib/read_data
+[0.698s] writing list of installed files to '/home/ritesh/rc-car/ros2ws/build/read_data/install.log'
+[0.714s] Invoked command in '/home/ritesh/rc-car/ros2ws/read_data' returned '0': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/read_data/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/read_data build --build-base /home/ritesh/rc-car/ros2ws/build/read_data/build install --record /home/ritesh/rc-car/ros2ws/build/read_data/install.log --single-version-externally-managed install_data

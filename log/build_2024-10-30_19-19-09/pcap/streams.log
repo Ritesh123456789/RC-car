@@ -1,0 +1,56 @@
+[0.884s] Invoking command in '/home/ritesh/rc-car/build/pcap': /usr/bin/cmake /home/ritesh/rc-car/ros2ws/libpcap-1.10.1 -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/pcap
+[1.146s] -- Checking C compiler flag -std=gnu99
+[1.146s] -- Use DYNAMIC runtime
+[1.146s] -- Support IPv6
+[1.146s] -- Packet capture mechanism type: linux
+[1.146s] -- Find-interfaces mechanism type: getad
+[1.146s] -- Executing Finddpdk
+[1.146s] -- Executing find_path
+[1.146s] -- Could NOT find dpdk (missing: dpdk_INCLUDE_DIRS) 
+[1.146s] -- Could NOT find DAG (missing: DAG_INCLUDE_DIR DAG_LIBRARY DAGCONF_LIBRARY) 
+[1.146s] -- Could NOT find SNF (missing: SNF_INCLUDE_DIR SNF_LIBRARY) 
+[1.146s] -- Could NOT find TC (missing: TC_INCLUDE_DIR TC_LIBRARY) 
+[1.146s] -- Checking C compiler flag -fvisibility=hidden
+[1.146s] -- Configuring incomplete, errors occurred!
+[1.147s] See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeOutput.log".
+[1.147s] See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeError.log".
+[1.147s] [0mCMake Deprecation Warning at CMakeLists.txt:7 (cmake_minimum_required):
+[1.147s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.147s]   CMake.
+[1.147s] 
+[1.147s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.147s]   CMake that the project does not need compatibility with older versions.
+[1.147s] 
+[1.147s] [0m
+[1.147s] [0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_policy):
+[1.147s]   The OLD behavior for policy CMP0042 will be removed from a future version
+[1.147s]   of CMake.
+[1.147s] 
+[1.147s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.147s]   policies are deprecated and that a policy should be set to OLD only under
+[1.147s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.147s]   behavior and not rely on setting a policy to OLD.
+[1.147s] 
+[1.151s] [0m
+[1.151s] [33mCMake Warning at CMakeLists.txt:1836 (find_package):
+[1.151s]   By not providing "FindAirPcap.cmake" in CMAKE_MODULE_PATH this project has
+[1.151s]   asked CMake to find a package configuration file provided by "AirPcap", but
+[1.151s]   CMake did not find one.
+[1.151s] 
+[1.151s]   Could not find a package configuration file provided by "AirPcap" with any
+[1.151s]   of the following names:
+[1.151s] 
+[1.151s]     AirPcapConfig.cmake
+[1.152s]     airpcap-config.cmake
+[1.152s] 
+[1.152s]   Add the installation prefix of "AirPcap" to CMAKE_PREFIX_PATH or set
+[1.152s]   "AirPcap_DIR" to a directory containing one of the above files.  If
+[1.152s]   "AirPcap" provides a separate development package or SDK, be sure it has
+[1.152s]   been installed.
+[1.152s] 
+[1.152s] [0m
+[1.152s] [31mCMake Error at CMakeLists.txt:2064 (message):
+[1.152s]   Neither flex nor win_flex nor lex was found.
+[1.152s] 
+[1.152s] [0m
+[1.176s] Invoked command in '/home/ritesh/rc-car/build/pcap' returned '1': /usr/bin/cmake /home/ritesh/rc-car/ros2ws/libpcap-1.10.1 -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/pcap

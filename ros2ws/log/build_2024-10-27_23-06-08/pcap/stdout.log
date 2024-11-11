@@ -1,0 +1,6 @@
+[  3%] Built target SerializeTarget
+[ 44%] Built target pcap_static
+[ 85%] Built target pcap
+[ 95%] Built target fuzz_pcap
+[ 96%] Built target fuzz_both
+[100%] Built target fuzz_filter

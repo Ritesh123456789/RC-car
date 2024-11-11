@@ -1,0 +1,215 @@
+[0.850s] Invoking command in '/home/ritesh/rc-car/build/pcap': /usr/bin/cmake /home/ritesh/rc-car/ros2ws/libpcap-1.10.1 -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/pcap
+[0.861s] [0mCMake Deprecation Warning at CMakeLists.txt:7 (cmake_minimum_required):
+[0.861s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.861s]   CMake.
+[0.861s] 
+[0.861s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.861s]   CMake that the project does not need compatibility with older versions.
+[0.861s] 
+[0.861s] [0m
+[0.862s] [0mCMake Deprecation Warning at CMakeLists.txt:16 (cmake_policy):
+[0.862s]   The OLD behavior for policy CMP0042 will be removed from a future version
+[0.862s]   of CMake.
+[0.862s] 
+[0.862s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.862s]   policies are deprecated and that a policy should be set to OLD only under
+[0.862s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.862s]   behavior and not rely on setting a policy to OLD.
+[0.868s] 
+[0.868s] [0m
+[0.942s] -- The C compiler identification is GNU 11.4.0
+[1.021s] -- The CXX compiler identification is GNU 11.4.0
+[1.040s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.200s] -- Detecting C compile features
+[1.200s] -- Detecting C compile features - done
+[1.212s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.458s] -- Detecting CXX compile features
+[1.459s] -- Detecting CXX compile features - done
+[1.466s] -- Checking C compiler flag -std=gnu99
+[1.466s] -- Performing Test std-gnu99
+[1.615s] -- Performing Test std-gnu99 - Success
+[1.616s] -- Use DYNAMIC runtime
+[1.623s] -- Looking for inttypes.h
+[1.787s] -- Looking for inttypes.h - found
+[1.787s] -- Looking for stdint.h
+[1.946s] -- Looking for stdint.h - found
+[1.946s] -- Looking for unistd.h
+[2.114s] -- Looking for unistd.h - found
+[2.114s] -- Looking for bitypes.h
+[2.183s] -- Looking for bitypes.h - not found
+[2.183s] -- Looking for sys/ioccom.h
+[2.265s] -- Looking for sys/ioccom.h - not found
+[2.265s] -- Looking for sys/sockio.h
+[2.312s] -- Looking for sys/sockio.h - not found
+[2.312s] -- Looking for sys/select.h
+[2.459s] -- Looking for sys/select.h - found
+[2.459s] -- Looking for netpacket/packet.h
+[2.567s] -- Looking for netpacket/packet.h - found
+[2.567s] -- Looking for 4 include files sys/types.h, ..., net/pfvar.h
+[2.619s] -- Looking for 4 include files sys/types.h, ..., net/pfvar.h - not found
+[2.619s] -- Looking for netinet/if_ether.h
+[2.738s] -- Looking for netinet/if_ether.h - found
+[2.738s] -- Performing Test HAVE___ATOMIC_LOAD_N
+[2.869s] -- Performing Test HAVE___ATOMIC_LOAD_N - Success
+[2.869s] -- Performing Test HAVE___ATOMIC_STORE_N
+[3.001s] -- Performing Test HAVE___ATOMIC_STORE_N - Success
+[3.002s] -- Looking for strerror
+[3.143s] -- Looking for strerror - found
+[3.143s] -- Looking for strerror_r
+[3.322s] -- Looking for strerror_r - found
+[3.322s] -- Performing Test HAVE_GNU_STRERROR_R
+[3.482s] -- Performing Test HAVE_GNU_STRERROR_R - Success
+[3.483s] -- Looking for vsnprintf
+[3.638s] -- Looking for vsnprintf - found
+[3.638s] -- Looking for snprintf
+[3.812s] -- Looking for snprintf - found
+[3.812s] -- Looking for strlcpy
+[3.988s] -- Looking for strlcpy - not found
+[3.988s] -- Looking for strlcat
+[4.150s] -- Looking for strlcat - not found
+[4.150s] -- Looking for asprintf
+[4.362s] -- Looking for asprintf - found
+[4.363s] -- Looking for vasprintf
+[4.556s] -- Looking for vasprintf - found
+[4.558s] -- Looking for strtok_r
+[4.705s] -- Looking for strtok_r - found
+[4.705s] -- Looking for vsyslog
+[4.844s] -- Looking for vsyslog - found
+[4.844s] -- Looking for getaddrinfo
+[5.026s] -- Looking for getaddrinfo - found
+[5.026s] -- Looking for putmsg
+[5.158s] -- Looking for putmsg - not found
+[5.158s] -- Looking for putmsg in str
+[5.285s] -- Looking for putmsg in str - not found
+[5.286s] -- Looking for getnetbyname_r
+[5.490s] -- Looking for getnetbyname_r - found
+[5.490s] -- Performing Test HAVE_LINUX_GETNETBYNAME_R
+[5.650s] -- Performing Test HAVE_LINUX_GETNETBYNAME_R - Success
+[5.650s] -- Looking for getprotobyname_r
+[5.803s] -- Looking for getprotobyname_r - found
+[5.804s] -- Performing Test HAVE_LINUX_GETPROTOBYNAME_R
+[5.932s] -- Performing Test HAVE_LINUX_GETPROTOBYNAME_R - Success
+[5.932s] -- Looking for sys/types.h
+[6.125s] -- Looking for sys/types.h - found
+[6.125s] -- Looking for stddef.h
+[6.244s] -- Looking for stddef.h - found
+[6.244s] -- Check size of struct sockaddr_storage
+[6.372s] -- Check size of struct sockaddr_storage - done
+[6.375s] -- Check size of socklen_t
+[6.501s] -- Check size of socklen_t - done
+[6.501s] -- Performing Test HAVE_STRUCT_SOCKADDR_SA_LEN
+[6.577s] -- Performing Test HAVE_STRUCT_SOCKADDR_SA_LEN - Failed
+[6.577s] -- Looking for ffs
+[6.743s] -- Looking for ffs - found
+[6.743s] -- Looking for ffs
+[6.890s] -- Looking for ffs - found
+[6.891s] -- Looking for ether_hostton
+[7.016s] -- Looking for ether_hostton - found
+[7.016s] -- Looking for ether_hostton
+[7.090s] -- Looking for ether_hostton - not found
+[7.090s] -- Looking for ether_hostton
+[7.226s] -- Looking for ether_hostton - found
+[7.226s] -- Looking for native LFS support
+[7.388s] -- Looking for native LFS support - found
+[7.389s] -- Found LFS: TRUE  
+[7.389s] -- Looking for native fseeko support
+[7.560s] -- Looking for native fseeko support - found
+[7.561s] -- Found FSEEKO: TRUE  
+[7.562s] -- Support IPv6
+[7.565s] -- Looking for pthread.h
+[7.699s] -- Looking for pthread.h - found
+[7.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.831s] -- Found Threads: TRUE  
+[7.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.941s] -- Looking for include files sys/types.h, net/bpf.h
+[8.007s] -- Looking for include files sys/types.h, net/bpf.h - not found
+[8.007s] -- Looking for net/pfilt.h
+[8.070s] -- Looking for net/pfilt.h - not found
+[8.070s] -- Looking for net/enet.h
+[8.115s] -- Looking for net/enet.h - not found
+[8.115s] -- Looking for net/nit.h
+[8.171s] -- Looking for net/nit.h - not found
+[8.171s] -- Looking for sys/net/nit.h
+[8.233s] -- Looking for sys/net/nit.h - not found
+[8.233s] -- Looking for linux/socket.h
+[8.358s] -- Looking for linux/socket.h - found
+[8.358s] -- Looking for net/raw.h
+[8.412s] -- Looking for net/raw.h - not found
+[8.412s] -- Looking for sys/dlpi.h
+[8.478s] -- Looking for sys/dlpi.h - not found
+[8.478s] -- Looking for config/HaikuConfig.h
+[8.538s] -- Looking for config/HaikuConfig.h - not found
+[8.538s] -- Packet capture mechanism type: linux
+[8.547s] -- Looking for include files sys/socket.h, linux/wireless.h
+[8.714s] -- Looking for include files sys/socket.h, linux/wireless.h - found
+[8.714s] -- Checking for module 'libnl-3.0'
+[8.744s] --   Found libnl-3.0, version 3.5.0
+[8.808s] -- Performing Test HAVE_STRUCT_TPACKET_AUXDATA_TP_VLAN_TCI
+[8.958s] -- Performing Test HAVE_STRUCT_TPACKET_AUXDATA_TP_VLAN_TCI - Success
+[8.959s] -- Looking for getifaddrs
+[9.113s] -- Looking for getifaddrs - found
+[9.113s] -- Looking for include files sys/types.h, ifaddrs.h
+[9.245s] -- Looking for include files sys/types.h, ifaddrs.h - found
+[9.245s] -- Find-interfaces mechanism type: getad
+[9.245s] -- Looking for linux/net_tstamp.h
+[9.376s] -- Looking for linux/net_tstamp.h - found
+[9.376s] -- Looking for include file linux/compiler.h
+[9.420s] -- Looking for include file linux/compiler.h - not found
+[9.421s] -- Looking for include file linux/usbdevice_fs.h
+[9.569s] -- Looking for include file linux/usbdevice_fs.h - found
+[9.569s] -- Performing Test HAVE_STRUCT_USBDEVFS_CTRLTRANSFER_BREQUESTTYPE
+[9.668s] -- Performing Test HAVE_STRUCT_USBDEVFS_CTRLTRANSFER_BREQUESTTYPE - Success
+[9.669s] -- Performing Test PCAP_SUPPORT_NETFILTER
+[9.800s] -- Performing Test PCAP_SUPPORT_NETFILTER - Success
+[9.800s] -- Performing Test PCAP_SUPPORT_NETMAP
+[9.845s] -- Performing Test PCAP_SUPPORT_NETMAP - Failed
+[9.854s] -- Executing Finddpdk
+[9.854s] -- Executing find_path
+[9.878s] -- Could NOT find dpdk (missing: dpdk_INCLUDE_DIRS) 
+[9.878s] -- Looking for bluetooth/bluetooth.h
+[9.940s] -- Looking for bluetooth/bluetooth.h - not found
+[9.942s] -- Checking for module 'dbus-1'
+[9.977s] --   Found dbus-1, version 1.12.20
+[10.031s] -- Looking for ibv_get_device_list in ibverbs
+[10.158s] -- Looking for ibv_get_device_list in ibverbs - found
+[10.158s] -- Looking for infiniband/verbs.h
+[10.313s] -- Looking for infiniband/verbs.h - found
+[10.314s] -- Looking for ibv_create_flow
+[10.526s] -- Looking for ibv_create_flow - found
+[10.533s] -- Could NOT find DAG (missing: DAG_INCLUDE_DIR DAG_LIBRARY DAGCONF_LIBRARY) 
+[10.533s] -- Looking for msg.h
+[10.581s] -- Looking for msg.h - not found
+[10.588s] -- Could NOT find SNF (missing: SNF_INCLUDE_DIR SNF_LIBRARY) 
+[10.601s] [33mCMake Warning at CMakeLists.txt:1836 (find_package):
+[10.601s]   By not providing "FindAirPcap.cmake" in CMAKE_MODULE_PATH this project has
+[10.601s]   asked CMake to find a package configuration file provided by "AirPcap", but
+[10.601s]   CMake did not find one.
+[10.601s] 
+[10.601s]   Could not find a package configuration file provided by "AirPcap" with any
+[10.601s]   of the following names:
+[10.601s] 
+[10.602s]     AirPcapConfig.cmake
+[10.602s]     airpcap-config.cmake
+[10.602s] 
+[10.602s]   Add the installation prefix of "AirPcap" to CMAKE_PREFIX_PATH or set
+[10.602s]   "AirPcap_DIR" to a directory containing one of the above files.  If
+[10.602s]   "AirPcap" provides a separate development package or SDK, be sure it has
+[10.602s]   been installed.
+[10.602s] 
+[10.602s] [0m
+[10.610s] -- Could NOT find TC (missing: TC_INCLUDE_DIR TC_LIBRARY) 
+[10.610s] -- Checking C compiler flag -fvisibility=hidden
+[10.610s] -- Performing Test fvisibility-hidden
+[10.720s] -- Performing Test fvisibility-hidden - Success
+[10.724s] [31mCMake Error at CMakeLists.txt:2064 (message):
+[10.724s]   Neither flex nor win_flex nor lex was found.
+[10.724s] 
+[10.724s] [0m
+[10.724s] -- Configuring incomplete, errors occurred!
+[10.724s] See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeOutput.log".
+[10.724s] See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeError.log".

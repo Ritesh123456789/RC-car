@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/findalldevstest.dir/findalldevstest.c.o -o ../run/findalldevstest  ../libpcap.a -libverbs -lnl-3 -lssl -lcrypto -ldbus-1 

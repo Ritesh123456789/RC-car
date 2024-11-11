@@ -1,0 +1,49 @@
+[0.850s] Invoking command in '/home/ritesh/rc-car/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/ritesh/rc-car/build/my_robot_controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/ritesh/rc-car/build/my_robot_controller/build install --record /home/ritesh/rc-car/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.004s] running egg_info
+[1.004s] creating ../../../build/my_robot_controller/my_robot_controller.egg-info
+[1.004s] writing ../../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.005s] writing dependency_links to ../../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.005s] writing entry points to ../../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.005s] writing requirements to ../../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.005s] writing top-level names to ../../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.005s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.006s] reading manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.007s] writing manifest file '../../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.007s] running build
+[1.007s] running build_py
+[1.007s] creating /home/ritesh/rc-car/build/my_robot_controller/build
+[1.007s] creating /home/ritesh/rc-car/build/my_robot_controller/build/lib
+[1.007s] creating /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.007s] copying my_robot_controller/pose_subscriber.py -> /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.008s] copying my_robot_controller/my_first_node.py -> /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.008s] copying my_robot_controller/__init__.py -> /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.008s] copying my_robot_controller/draw_circle.py -> /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.009s] copying my_robot_controller/turtle_controller.py -> /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller
+[1.010s] running install
+[1.010s] running install_lib
+[1.010s] creating /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] copying /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] copying /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] copying /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] copying /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] copying /home/ritesh/rc-car/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.011s] byte-compiling /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.012s] byte-compiling /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.012s] byte-compiling /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.012s] byte-compiling /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.013s] byte-compiling /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.013s] running install_data
+[1.013s] creating /home/ritesh/rc-car/install/my_robot_controller/share/ament_index
+[1.013s] creating /home/ritesh/rc-car/install/my_robot_controller/share/ament_index/resource_index
+[1.013s] creating /home/ritesh/rc-car/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.013s] copying resource/my_robot_controller -> /home/ritesh/rc-car/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.013s] copying package.xml -> /home/ritesh/rc-car/install/my_robot_controller/share/my_robot_controller
+[1.013s] running install_egg_info
+[1.015s] Copying ../../../build/my_robot_controller/my_robot_controller.egg-info to /home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.015s] running install_scripts
+[1.031s] Installing draw_circle script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller
+[1.031s] Installing pose_subscriber script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller
+[1.031s] Installing test_node script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller
+[1.031s] Installing turtle_controller script to /home/ritesh/rc-car/install/my_robot_controller/lib/my_robot_controller
+[1.032s] writing list of installed files to '/home/ritesh/rc-car/build/my_robot_controller/install.log'
+[1.048s] Invoked command in '/home/ritesh/rc-car/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/ritesh/rc-car/build/my_robot_controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/my_robot_controller build --build-base /home/ritesh/rc-car/build/my_robot_controller/build install --record /home/ritesh/rc-car/build/my_robot_controller/install.log --single-version-externally-managed install_data

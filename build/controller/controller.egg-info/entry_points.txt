@@ -1,0 +1,3 @@
+[console_scripts]
+give_c = controller.give_c:main
+

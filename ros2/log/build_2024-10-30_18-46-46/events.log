@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.000667] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000833] (eufs_msgs) JobQueued: {'identifier': 'eufs_msgs', 'dependencies': OrderedDict()}
+[0.001056] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.001119] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ritesh/rc-car/ros2/install/rslidar_msg')])}
+[0.001218] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.009011] (controller) JobStarted: {'identifier': 'controller'}
+[0.011367] (eufs_msgs) JobStarted: {'identifier': 'eufs_msgs'}
+[0.016792] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.017435] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[0.018370] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/ros2/build/rslidar_msg', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/ros2/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 64170 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '678'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 64170 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099600] (-) TimerEvent: {}
+[0.199948] (-) TimerEvent: {}
+[0.301543] (-) TimerEvent: {}
+[0.305191] (rslidar_msg) StdoutLine: {'line': b'[  3%] Built target rslidar_msg__cpp\n'}
+[0.305382] (rslidar_msg) StdoutLine: {'line': b'[ 12%] Built target rslidar_msg__rosidl_generator_c\n'}
+[0.305460] (rslidar_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_rslidar_msg\n'}
+[0.305523] (rslidar_msg) StdoutLine: {'line': b'[ 22%] Built target rslidar_msg__rosidl_typesupport_cpp\n'}
+[0.305581] (rslidar_msg) StdoutLine: {'line': b'[ 32%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.305636] (rslidar_msg) StdoutLine: {'line': b'[ 41%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.305691] (rslidar_msg) StdoutLine: {'line': b'[ 51%] Built target rslidar_msg__rosidl_typesupport_introspection_c\n'}
+[0.305766] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.305852] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_c\n'}
+[0.305905] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg\n'}
+[0.305956] (rslidar_msg) StdoutLine: {'line': b'[ 74%] Built target rslidar_msg__py\n'}
+[0.306008] (rslidar_msg) StdoutLine: {'line': b'[ 80%] Built target rslidar_msg__rosidl_generator_py\n'}
+[0.310863] (eufs_msgs) JobProgress: {'identifier': 'eufs_msgs', 'progress': 'cmake'}
+[0.310938] (eufs_msgs) JobProgress: {'identifier': 'eufs_msgs', 'progress': 'build'}
+[0.310960] (eufs_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/ros2/build/eufs_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/ros2/build/eufs_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 64170 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '678'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/eufs_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 64170 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.311540] (rslidar_msg) StdoutLine: {'line': b'[ 87%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.329092] (rslidar_msg) StdoutLine: {'line': b'[ 93%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.330543] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_c__pyext\n'}
+[0.401629] (-) TimerEvent: {}
+[0.409470] (rslidar_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.410630] (rslidar_msg) StdoutLine: {'line': b'writing rslidar_msg.egg-info/PKG-INFO\n'}
+[0.411135] (rslidar_msg) StdoutLine: {'line': b'writing dependency_links to rslidar_msg.egg-info/dependency_links.txt\n'}
+[0.411621] (rslidar_msg) StdoutLine: {'line': b'writing top-level names to rslidar_msg.egg-info/top_level.txt\n'}
+[0.414100] (rslidar_msg) StdoutLine: {'line': b"reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[0.415431] (rslidar_msg) StdoutLine: {'line': b"writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[0.452978] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rslidar_msg_egg\n'}
+[0.473409] (eufs_msgs) StdoutLine: {'line': b'[  0%] Built target eufs_msgs__cpp\n'}
+[0.492209] (rslidar_msg) CommandEnded: {'returncode': 0}
+[0.492581] (eufs_msgs) StdoutLine: {'line': b'[ 12%] Built target eufs_msgs__rosidl_generator_c\n'}
+[0.504744] (-) TimerEvent: {}
+[0.515112] (eufs_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_eufs_msgs\n'}
+[0.574238] (eufs_msgs) StdoutLine: {'line': b'[ 25%] Built target eufs_msgs__rosidl_typesupport_c\n'}
+[0.585124] (eufs_msgs) StdoutLine: {'line': b'[ 38%] Built target eufs_msgs__rosidl_typesupport_introspection_c\n'}
+[0.594093] (eufs_msgs) StdoutLine: {'line': b'[ 51%] Built target eufs_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.603473] (eufs_msgs) StdoutLine: {'line': b'[ 64%] Built target eufs_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.604828] (-) TimerEvent: {}
+[0.608162] (eufs_msgs) StdoutLine: {'line': b'[ 76%] Built target eufs_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.611483] (eufs_msgs) StdoutLine: {'line': b'[ 88%] Built target eufs_msgs__rosidl_typesupport_cpp\n'}
+[0.650349] (eufs_msgs) StdoutLine: {'line': b'[ 88%] Built target eufs_msgs\n'}
+[0.674961] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'install'}
+[0.697190] (rslidar_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ritesh/rc-car/ros2/build/rslidar_msg'], 'cwd': '/home/ritesh/rc-car/ros2/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 64170 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '678'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 64170 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.704905] (rslidar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.705112] (-) TimerEvent: {}
+[0.705347] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg\n'}
+[0.705508] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.705674] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.706332] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.706491] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.706659] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.c\n'}
+[0.706806] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.h\n'}
+[0.706941] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.h\n'}
+[0.707058] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.h\n'}
+[0.707176] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.h\n'}
+[0.707333] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh\n'}
+[0.707505] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv\n'}
+[0.708089] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so\n'}
+[0.708199] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.708365] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.708516] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.708639] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.709034] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[0.709139] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.709457] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.709602] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.709761] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.hpp\n'}
+[0.709962] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.710025] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__traits.hpp\n'}
+[0.710185] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.hpp\n'}
+[0.710257] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__builder.hpp\n'}
+[0.710534] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.710602] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.710659] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.711199] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.711276] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.711335] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/dds_fastrtps\n'}
+[0.711399] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.711796] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.711874] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.712058] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.712118] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.712260] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.c\n'}
+[0.712402] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[0.712722] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.713170] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so\n'}
+[0.713473] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[0.713621] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[0.713770] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[0.713922] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp\n'}
+[0.714044] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.714734] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[0.714817] (eufs_msgs) StdoutLine: {'line': b'[ 88%] Built target eufs_msgs__py\n'}
+[0.714914] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so\n'}
+[0.715220] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh\n'}
+[0.715382] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv\n'}
+[0.715536] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info\n'}
+[0.715680] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.716230] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.716337] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.716631] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.717050] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg\n'}
+[0.717134] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg\n'}
+[0.717380] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py\n'}
+[0.717447] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py\n'}
+[0.717514] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet_s.c\n'}
+[0.717931] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.718013] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py\n'}
+[0.718070] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.718125] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.722331] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/librslidar_msg__rosidl_generator_py.so\n'}
+[0.722448] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c\n'}
+[0.722511] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.726151] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.757546] (rslidar_msg) StdoutLine: {'line': b"Listing '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg'...\n"}
+[0.757780] (rslidar_msg) StdoutLine: {'line': b"Listing '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg'...\n"}
+[0.762060] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.762504] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.762923] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.763320] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so\n'}
+[0.763595] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl\n'}
+[0.763700] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg\n'}
+[0.769037] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg\n'}
+[0.769171] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg\n'}
+[0.769249] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh\n'}
+[0.769344] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv\n'}
+[0.769417] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/path.sh\n'}
+[0.769474] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/environment/path.dsv\n'}
+[0.769548] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/local_setup.bash\n'}
+[0.769620] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/local_setup.sh\n'}
+[0.769693] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/local_setup.zsh\n'}
+[0.769821] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/local_setup.dsv\n'}
+[0.769898] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/package.dsv\n'}
+[0.769974] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg\n'}
+[0.770045] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport.cmake\n'}
+[0.770116] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.770185] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.773179] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.773256] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cppExport.cmake\n'}
+[0.773314] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.773377] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.773427] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.773475] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.773530] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake\n'}
+[0.773577] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.773623] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.773671] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.773730] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake\n'}
+[0.773785] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.773832] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport.cmake\n'}
+[0.773879] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.773925] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[0.773972] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.774019] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.774071] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.774117] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.774165] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.774211] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.774257] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake\n'}
+[0.774303] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake\n'}
+[0.774362] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/package.xml\n'}
+[0.781495] (rslidar_msg) CommandEnded: {'returncode': 0}
+[0.808195] (-) TimerEvent: {}
+[0.812673] (eufs_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.813385] (eufs_msgs) StdoutLine: {'line': b'writing eufs_msgs.egg-info/PKG-INFO\n'}
+[0.817500] (eufs_msgs) StdoutLine: {'line': b'writing dependency_links to eufs_msgs.egg-info/dependency_links.txt\n'}
+[0.817969] (eufs_msgs) StdoutLine: {'line': b'[100%] Built target eufs_msgs__rosidl_generator_py\n'}
+[0.818046] (eufs_msgs) StdoutLine: {'line': b'writing top-level names to eufs_msgs.egg-info/top_level.txt\n'}
+[0.820814] (eufs_msgs) StdoutLine: {'line': b"reading manifest file 'eufs_msgs.egg-info/SOURCES.txt'\n"}
+[0.822335] (eufs_msgs) StdoutLine: {'line': b"writing manifest file 'eufs_msgs.egg-info/SOURCES.txt'\n"}
+[0.859487] (controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/ritesh/rc-car/ros2/build/controller/build', 'install', '--record', '/home/ritesh/rc-car/ros2/build/controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ritesh/rc-car/ros2/src/controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ritesh', 'SSH_CLIENT': '140.82.222.70 64170 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/lib/hsl-install/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ritesh', 'OLDPWD': '/home/ritesh/rc-car', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1009/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ritesh', 'WORHP_LICENSE_FILE': '/usr/include/worhp/worhp.lic', 'EUFS_MASTER': '/home/ritesh/feb-system-integration', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'HSL': '/lib/hsl-install/lib/', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '678', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1009', 'DISPLAY': 'localhost:11.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ritesh/rc-car/ros2/build/controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.82.222.70 64170 10.0.0.227 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ritesh/rc-car/ros2/build/controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'OMP_NUM_THREADS': '8', 'COLCON': '1', 'WORHP': '/usr'}, 'shell': False}
+[0.860137] (eufs_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_eufs_msgs_egg\n'}
+[0.866902] (eufs_msgs) StdoutLine: {'line': b'[100%] Built target eufs_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.867775] (eufs_msgs) StdoutLine: {'line': b'[100%] Built target eufs_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.873576] (eufs_msgs) StdoutLine: {'line': b'[100%] Built target eufs_msgs__rosidl_typesupport_c__pyext\n'}
+[0.906966] (eufs_msgs) CommandEnded: {'returncode': 0}
+[0.908267] (-) TimerEvent: {}
+[0.948731] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 0}
+[0.960456] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[0.973844] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[0.973923] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[0.973944] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/ros2/build/rslidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/ros2/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 64170 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/rc-car'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '678'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '140.82.222.70 64170 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble')]), 'shell': False}
+[1.008359] (-) TimerEvent: {}
+[1.009490] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.009683] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- POINT_TYPE is XYZI\x1b[0m\n'}
+[1.009775] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.020345] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.020519] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS Not Found. ROS Support is turned Off.\x1b[0m\n'}
+[1.020585] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.108442] (-) TimerEvent: {}
+[1.120750] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.120951] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[1.121021] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[1.121083] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[1.121144] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[1.121200] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[1.123918] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.124789] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[1.124969] (controller) StdoutLine: {'line': b'running build\n'}
+[1.125038] (controller) StdoutLine: {'line': b'running build_py\n'}
+[1.125274] (controller) StdoutLine: {'line': b'running install\n'}
+[1.125526] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.127735] (controller) StdoutLine: {'line': b'running install_data\n'}
+[1.130141] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.130258] (controller) StdoutLine: {'line': b"removing '/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.130321] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info\n'}
+[1.133584] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.155119] (controller) StdoutLine: {'line': b'Installing give_c script to /home/ritesh/rc-car/ros2/install/controller/lib/controller\n'}
+[1.155616] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/ritesh/rc-car/ros2/build/controller/install.log'\n"}
+[1.181881] (controller) CommandEnded: {'returncode': 0}
+[1.196972] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[1.208516] (-) TimerEvent: {}
+[1.214704] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.218476] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.225866] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.237512] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.251530] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.288079] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.289445] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.308594] (-) TimerEvent: {}
+[1.357742] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.408726] (-) TimerEvent: {}
+[1.412628] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.414450] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS2 Found. ROS2 Support is turned On.\x1b[0m\n'}
+[1.415165] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.415369] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.447039] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[1.509107] (-) TimerEvent: {}
+[1.540624] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.559242] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.565835] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ritesh/rc-car/ros2/build/rslidar_sdk\n'}
+[1.608615] (rslidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[1.609171] (-) TimerEvent: {}
+[1.613245] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o\x1b[0m\n'}
+[1.709287] (-) TimerEvent: {}
+[1.800282] (rslidar_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37\x1b[m\x1b[K,\n'}
+[1.800513] (rslidar_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35\x1b[m\x1b[K,\n'}
+[1.800589] (rslidar_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.cpp:33\x1b[m\x1b[K:\n'}
+[1.800654] (rslidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krs_driver/common/rs_log.hpp: No such file or directory\n'}
+[1.800731] (rslidar_sdk) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K"rs_driver/common/rs_log.hpp"\x1b[m\x1b[K\n'}
+[1.800798] (rslidar_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.802928] (rslidar_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[1.803040] (rslidar_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37\x1b[m\x1b[K,\n'}
+[1.803104] (rslidar_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35\x1b[m\x1b[K,\n'}
+[1.803162] (rslidar_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/node/rslidar_sdk_node.cpp:33\x1b[m\x1b[K:\n'}
+[1.803216] (rslidar_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krs_driver/common/rs_log.hpp: No such file or directory\n'}
+[1.803271] (rslidar_sdk) StderrLine: {'line': b'   35 | #include \x1b[01;31m\x1b[K"rs_driver/common/rs_log.hpp"\x1b[m\x1b[K\n'}
+[1.803324] (rslidar_sdk) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.803383] (rslidar_sdk) StderrLine: {'line': b'compilation terminated.\n'}
+[1.807039] (rslidar_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:76: CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o] Error 1\n'}
+[1.807544] (rslidar_sdk) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.807811] (rslidar_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:90: CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o] Error 1\n'}
+[1.807877] (rslidar_sdk) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rslidar_sdk_node.dir/all] Error 2\n'}
+[1.807933] (rslidar_sdk) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.809568] (-) TimerEvent: {}
+[1.810346] (rslidar_sdk) CommandEnded: {'returncode': 2}
+[1.857588] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 2}
+[1.909666] (-) TimerEvent: {}
+[2.009949] (-) TimerEvent: {}
+[2.110237] (-) TimerEvent: {}
+[2.210765] (-) TimerEvent: {}
+[2.311049] (-) TimerEvent: {}
+[2.411359] (-) TimerEvent: {}
+[2.511647] (-) TimerEvent: {}
+[2.611939] (-) TimerEvent: {}
+[2.657326] (eufs_msgs) JobEnded: {'identifier': 'eufs_msgs', 'rc': 'SIGINT'}
+[2.667950] (-) EventReactorShutdown: {}

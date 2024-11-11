@@ -1,0 +1,15 @@
+-- Checking C compiler flag -std=gnu99
+-- Use DYNAMIC runtime
+-- Support IPv6
+-- Packet capture mechanism type: linux
+-- Find-interfaces mechanism type: getad
+-- Executing Finddpdk
+-- Executing find_path
+-- Could NOT find dpdk (missing: dpdk_INCLUDE_DIRS) 
+-- Could NOT find DAG (missing: DAG_INCLUDE_DIR DAG_LIBRARY DAGCONF_LIBRARY) 
+-- Could NOT find SNF (missing: SNF_INCLUDE_DIR SNF_LIBRARY) 
+-- Could NOT find TC (missing: TC_INCLUDE_DIR TC_LIBRARY) 
+-- Checking C compiler flag -fvisibility=hidden
+-- Configuring incomplete, errors occurred!
+See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeOutput.log".
+See also "/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeError.log".

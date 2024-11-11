@@ -1,0 +1,177 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7dda441f9b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dda441f8d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dda441f8d00>>)
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ritesh/rc-car/ros2ws'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'read_data': Error(s) in package 'read_data/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 23, column 2
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'python'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Python package in 'read_data' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(read_data) by extension 'python_setup_py'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'read_data' with type 'python' and name 'read_data'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/control': Error(s) in package 'src/control/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 23, column 2
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'python'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/control' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'python_setup_py'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'python' and name 'control'
+[0.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.746s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ritesh/rc-car/ros2ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ritesh/rc-car/ros2ws/install/control', 'merge_install': False, 'path': '/home/ritesh/rc-car/ros2ws/src/control', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'read_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'read_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ritesh/rc-car/ros2ws/build/read_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ritesh/rc-car/ros2ws/install/read_data', 'merge_install': False, 'path': '/home/ritesh/rc-car/ros2ws/read_data', 'symlink_install': False, 'test_result_base': None}
+[0.767s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.768s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ritesh/rc-car/ros2ws/src/control'
+[0.770s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.774s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ritesh/rc-car/ros2ws/read_data'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ritesh/rc-car/ros2ws/src/control': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ritesh/rc-car/ros2ws/build/control/build install --record /home/ritesh/rc-car/ros2ws/build/control/install.log --single-version-externally-managed install_data
+[1.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ritesh/rc-car/ros2ws/read_data': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/read_data/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/read_data build --build-base /home/ritesh/rc-car/ros2ws/build/read_data/build install --record /home/ritesh/rc-car/ros2ws/build/read_data/install.log --single-version-externally-managed install_data
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control' for CMake module files
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control' for CMake config files
+[1.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ritesh/rc-car/ros2ws/src/control' returned '0': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ritesh/rc-car/ros2ws/build/control/build install --record /home/ritesh/rc-car/ros2ws/build/control/install.log --single-version-externally-managed install_data
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control/lib'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control/bin'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control/lib/pkgconfig/control.pc'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages'
+[1.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'pythonpath')
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ritesh/rc-car/ros2ws/install/control/share/control/hook/pythonpath.ps1'
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ritesh/rc-car/ros2ws/install/control/share/control/hook/pythonpath.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ritesh/rc-car/ros2ws/install/control/share/control/hook/pythonpath.sh'
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/control/bin'
+[1.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[1.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/control/share/control/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ritesh/rc-car/ros2ws/install/control/share/control/package.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/control/share/control/package.sh'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/control/share/control/package.bash'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/control/share/control/package.zsh'
+[1.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ritesh/rc-car/ros2ws/install/control/share/colcon-core/packages/control)
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data' for CMake module files
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ritesh/rc-car/ros2ws/read_data' returned '0': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/read_data/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/read_data build --build-base /home/ritesh/rc-car/ros2ws/build/read_data/build install --record /home/ritesh/rc-car/ros2ws/build/read_data/install.log --single-version-externally-managed install_data
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data' for CMake config files
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data/lib'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data/bin'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data/lib/pkgconfig/read_data.pc'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data/lib/python3.10/site-packages'
+[1.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('read_data', 'pythonpath')
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/hook/pythonpath.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/hook/pythonpath.dsv'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/hook/pythonpath.sh'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/ritesh/rc-car/ros2ws/install/read_data/bin'
+[1.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(read_data)
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/package.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/package.dsv'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/package.sh'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/package.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/ritesh/rc-car/ros2ws/install/read_data/share/read_data/package.zsh'
+[1.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ritesh/rc-car/ros2ws/install/read_data/share/colcon-core/packages/read_data)
+[1.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.958s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.958s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.963s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.963s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.970s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[26.970s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.971s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ritesh/rc-car/ros2ws/install/local_setup.ps1'
+[26.972s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ritesh/rc-car/ros2ws/install/_local_setup_util_ps1.py'
+[26.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ritesh/rc-car/ros2ws/install/setup.ps1'
+[26.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ritesh/rc-car/ros2ws/install/local_setup.sh'
+[26.975s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ritesh/rc-car/ros2ws/install/_local_setup_util_sh.py'
+[26.975s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ritesh/rc-car/ros2ws/install/setup.sh'
+[26.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ritesh/rc-car/ros2ws/install/local_setup.bash'
+[26.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ritesh/rc-car/ros2ws/install/setup.bash'
+[26.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ritesh/rc-car/ros2ws/install/local_setup.zsh'
+[26.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ritesh/rc-car/ros2ws/install/setup.zsh'

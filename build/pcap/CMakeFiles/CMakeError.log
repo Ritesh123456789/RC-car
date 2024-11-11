@@ -1,0 +1,435 @@
+Determining if the include file bitypes.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74fbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74fbc.dir/build.make CMakeFiles/cmTC_74fbc.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74fbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_74fbc.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: bitypes.h: No such file or directory
+    1 | #include <bitypes.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_74fbc.dir/build.make:78: CMakeFiles/cmTC_74fbc.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_74fbc/fast] Error 2
+
+
+
+Determining if the include file sys/ioccom.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f3317/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3317.dir/build.make CMakeFiles/cmTC_f3317.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3317.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f3317.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/ioccom.h: No such file or directory
+    1 | #include <sys/ioccom.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f3317.dir/build.make:78: CMakeFiles/cmTC_f3317.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f3317/fast] Error 2
+
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8c01/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8c01.dir/build.make CMakeFiles/cmTC_d8c01.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8c01.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8c01.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/sockio.h: No such file or directory
+    1 | #include <sys/sockio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d8c01.dir/build.make:78: CMakeFiles/cmTC_d8c01.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d8c01/fast] Error 2
+
+
+
+Determining if files sys/types.h;sys/socket.h;net/if.h;net/pfvar.h exist failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3d32/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3d32.dir/build.make CMakeFiles/cmTC_b3d32.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3d32.dir/HAVE_NET_PFVAR_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b3d32.dir/HAVE_NET_PFVAR_H.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_NET_PFVAR_H.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_NET_PFVAR_H.c:5:10: fatal error: net/pfvar.h: No such file or directory
+    5 | #include <net/pfvar.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b3d32.dir/build.make:78: CMakeFiles/cmTC_b3d32.dir/HAVE_NET_PFVAR_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b3d32/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#include <net/pfvar.h>
+
+
+int main(void){return 0;}
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14e06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14e06.dir/build.make CMakeFiles/cmTC_14e06.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14e06.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy -o CMakeFiles/cmTC_14e06.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_14e06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14e06.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy -rdynamic CMakeFiles/cmTC_14e06.dir/CheckFunctionExists.c.o -o cmTC_14e06 
+/usr/bin/ld: CMakeFiles/cmTC_14e06.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_14e06.dir/build.make:99: cmTC_14e06] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_14e06/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43a36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43a36.dir/build.make CMakeFiles/cmTC_43a36.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43a36.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat -o CMakeFiles/cmTC_43a36.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43a36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a36.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat -rdynamic CMakeFiles/cmTC_43a36.dir/CheckFunctionExists.c.o -o cmTC_43a36 
+/usr/bin/ld: CMakeFiles/cmTC_43a36.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_43a36.dir/build.make:99: cmTC_43a36] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_43a36/fast] Error 2
+
+
+
+Determining if the function putmsg exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e06e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e06e3.dir/build.make CMakeFiles/cmTC_e06e3.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e06e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=putmsg -o CMakeFiles/cmTC_e06e3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e06e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=putmsg -rdynamic CMakeFiles/cmTC_e06e3.dir/CheckFunctionExists.c.o -o cmTC_e06e3 
+/usr/bin/ld: CMakeFiles/cmTC_e06e3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `putmsg'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_e06e3.dir/build.make:99: cmTC_e06e3] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e06e3/fast] Error 2
+
+
+
+Determining if the function putmsg exists in the str failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f517d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f517d.dir/build.make CMakeFiles/cmTC_f517d.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f517d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=putmsg -o CMakeFiles/cmTC_f517d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f517d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f517d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=putmsg -rdynamic CMakeFiles/cmTC_f517d.dir/CheckFunctionExists.c.o -o cmTC_f517d  -lstr 
+/usr/bin/ld: cannot find -lstr: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_f517d.dir/build.make:99: cmTC_f517d] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f517d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_SA_LEN failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85377/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85377.dir/build.make CMakeFiles/cmTC_85377.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85377.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_SOCKADDR_SA_LEN   -o CMakeFiles/cmTC_85377.dir/src.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/src.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/src.c:6:38: error: ‘struct sockaddr’ has no member named ‘sa_len’
+    6 |   (void)sizeof(((struct sockaddr *)0)->sa_len);
+      |                                      ^~
+gmake[1]: *** [CMakeFiles/cmTC_85377.dir/build.make:78: CMakeFiles/cmTC_85377.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_85377/fast] Error 2
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr *)0)->sa_len);
+  return 0;
+}
+
+Determining if the ether_hostton exist failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3db9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3db9.dir/build.make CMakeFiles/cmTC_c3db9.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3db9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c3db9.dir/CheckSymbolExists.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘ether_hostton’ undeclared (first use in this function)
+    8 |   return ((int*)(&ether_hostton))[argc];
+      |                   ^~~~~~~~~~~~~
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_c3db9.dir/build.make:78: CMakeFiles/cmTC_c3db9.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c3db9/fast] Error 2
+
+
+File /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <net/ethernet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ether_hostton
+  return ((int*)(&ether_hostton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files sys/types.h;net/bpf.h exist failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8977/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8977.dir/build.make CMakeFiles/cmTC_d8977.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8977.dir/HAVE_NET_BPF_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8977.dir/HAVE_NET_BPF_H.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_NET_BPF_H.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_NET_BPF_H.c:3:10: fatal error: net/bpf.h: No such file or directory
+    3 | #include <net/bpf.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d8977.dir/build.make:78: CMakeFiles/cmTC_d8977.dir/HAVE_NET_BPF_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d8977/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <net/bpf.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file net/pfilt.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1bf63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1bf63.dir/build.make CMakeFiles/cmTC_1bf63.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bf63.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1bf63.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/pfilt.h: No such file or directory
+    1 | #include <net/pfilt.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1bf63.dir/build.make:78: CMakeFiles/cmTC_1bf63.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1bf63/fast] Error 2
+
+
+
+Determining if the include file net/enet.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da335/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da335.dir/build.make CMakeFiles/cmTC_da335.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da335.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da335.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/enet.h: No such file or directory
+    1 | #include <net/enet.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_da335.dir/build.make:78: CMakeFiles/cmTC_da335.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_da335/fast] Error 2
+
+
+
+Determining if the include file net/nit.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa19c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa19c.dir/build.make CMakeFiles/cmTC_fa19c.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa19c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fa19c.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/nit.h: No such file or directory
+    1 | #include <net/nit.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_fa19c.dir/build.make:78: CMakeFiles/cmTC_fa19c.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_fa19c/fast] Error 2
+
+
+
+Determining if the include file sys/net/nit.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2bf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2bf7.dir/build.make CMakeFiles/cmTC_e2bf7.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2bf7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2bf7.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/net/nit.h: No such file or directory
+    1 | #include <sys/net/nit.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e2bf7.dir/build.make:78: CMakeFiles/cmTC_e2bf7.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e2bf7/fast] Error 2
+
+
+
+Determining if the include file net/raw.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_89dbb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_89dbb.dir/build.make CMakeFiles/cmTC_89dbb.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89dbb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_89dbb.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: net/raw.h: No such file or directory
+    1 | #include <net/raw.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_89dbb.dir/build.make:78: CMakeFiles/cmTC_89dbb.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_89dbb/fast] Error 2
+
+
+
+Determining if the include file sys/dlpi.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cae42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cae42.dir/build.make CMakeFiles/cmTC_cae42.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cae42.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cae42.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/dlpi.h: No such file or directory
+    1 | #include <sys/dlpi.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_cae42.dir/build.make:78: CMakeFiles/cmTC_cae42.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cae42/fast] Error 2
+
+
+
+Determining if the include file config/HaikuConfig.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86dd3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86dd3.dir/build.make CMakeFiles/cmTC_86dd3.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86dd3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_86dd3.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: config/HaikuConfig.h: No such file or directory
+    1 | #include <config/HaikuConfig.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_86dd3.dir/build.make:78: CMakeFiles/cmTC_86dd3.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_86dd3/fast] Error 2
+
+
+
+Determining if files linux/compiler.h exist failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65022/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65022.dir/build.make CMakeFiles/cmTC_65022.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65022.dir/HAVE_LINUX_COMPILER_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_65022.dir/HAVE_LINUX_COMPILER_H.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_LINUX_COMPILER_H.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CheckIncludeFiles/HAVE_LINUX_COMPILER_H.c:2:10: fatal error: linux/compiler.h: No such file or directory
+    2 | #include <linux/compiler.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_65022.dir/build.make:78: CMakeFiles/cmTC_65022.dir/HAVE_LINUX_COMPILER_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_65022/fast] Error 2
+
+
+Source:
+/* */
+#include <linux/compiler.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test PCAP_SUPPORT_NETMAP failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f71bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f71bd.dir/build.make CMakeFiles/cmTC_f71bd.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f71bd.dir/src.c.o
+/usr/bin/cc -DPCAP_SUPPORT_NETMAP   -o CMakeFiles/cmTC_f71bd.dir/src.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/src.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: net/netmap_user.h: No such file or directory
+    2 | #include <net/netmap_user.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_f71bd.dir/build.make:78: CMakeFiles/cmTC_f71bd.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f71bd/fast] Error 2
+
+
+Source file was:
+#define NETMAP_WITH_LIBS
+#include <net/netmap_user.h>
+
+int
+main(void)
+{
+    return 0;
+}
+
+Determining if the include file bluetooth/bluetooth.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c784a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c784a.dir/build.make CMakeFiles/cmTC_c784a.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c784a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c784a.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: bluetooth/bluetooth.h: No such file or directory
+    1 | #include <bluetooth/bluetooth.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c784a.dir/build.make:78: CMakeFiles/cmTC_c784a.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c784a/fast] Error 2
+
+
+
+Determining if the include file msg.h exists failed with the following output:
+Change Dir: /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2fd11/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2fd11.dir/build.make CMakeFiles/cmTC_2fd11.dir/build
+gmake[1]: Entering directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fd11.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -I/home/ritesh/rc-car/ros2ws/libpcap-1.10.1/../septel/INC  -o CMakeFiles/cmTC_2fd11.dir/CheckIncludeFile.c.o -c /home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: msg.h: No such file or directory
+    1 | #include <msg.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2fd11.dir/build.make:78: CMakeFiles/cmTC_2fd11.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/ritesh/rc-car/build/pcap/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2fd11/fast] Error 2
+
+
+

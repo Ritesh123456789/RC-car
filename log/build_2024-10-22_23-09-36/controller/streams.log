@@ -1,0 +1,39 @@
+[0.698s] Invoking command in '/home/ritesh/rc-car/ros2/src/controller': PYTHONPATH=/home/ritesh/rc-car/build/controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/controller build --build-base /home/ritesh/rc-car/build/controller/build install --record /home/ritesh/rc-car/build/controller/install.log --single-version-externally-managed install_data
+[0.870s] running egg_info
+[0.871s] creating ../../../build/controller/controller.egg-info
+[0.871s] writing ../../../build/controller/controller.egg-info/PKG-INFO
+[0.872s] writing dependency_links to ../../../build/controller/controller.egg-info/dependency_links.txt
+[0.872s] writing entry points to ../../../build/controller/controller.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../../build/controller/controller.egg-info/requires.txt
+[0.872s] writing top-level names to ../../../build/controller/controller.egg-info/top_level.txt
+[0.872s] writing manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[0.873s] reading manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[0.874s] writing manifest file '../../../build/controller/controller.egg-info/SOURCES.txt'
+[0.874s] running build
+[0.874s] running build_py
+[0.874s] creating /home/ritesh/rc-car/build/controller/build
+[0.874s] creating /home/ritesh/rc-car/build/controller/build/lib
+[0.874s] creating /home/ritesh/rc-car/build/controller/build/lib/controller
+[0.874s] copying controller/give_c.py -> /home/ritesh/rc-car/build/controller/build/lib/controller
+[0.875s] copying controller/__init__.py -> /home/ritesh/rc-car/build/controller/build/lib/controller
+[0.875s] running install
+[0.875s] running install_lib
+[0.875s] creating /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller
+[0.876s] copying /home/ritesh/rc-car/build/controller/build/lib/controller/give_c.py -> /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller
+[0.876s] copying /home/ritesh/rc-car/build/controller/build/lib/controller/__init__.py -> /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller
+[0.876s] byte-compiling /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller/give_c.py to give_c.cpython-310.pyc
+[0.877s] byte-compiling /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[0.877s] running install_data
+[0.878s] creating /home/ritesh/rc-car/install/controller/share
+[0.878s] creating /home/ritesh/rc-car/install/controller/share/ament_index
+[0.878s] creating /home/ritesh/rc-car/install/controller/share/ament_index/resource_index
+[0.878s] creating /home/ritesh/rc-car/install/controller/share/ament_index/resource_index/packages
+[0.878s] copying resource/controller -> /home/ritesh/rc-car/install/controller/share/ament_index/resource_index/packages
+[0.878s] creating /home/ritesh/rc-car/install/controller/share/controller
+[0.878s] copying package.xml -> /home/ritesh/rc-car/install/controller/share/controller
+[0.878s] running install_egg_info
+[0.879s] Copying ../../../build/controller/controller.egg-info to /home/ritesh/rc-car/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[0.880s] running install_scripts
+[0.898s] Installing give_c script to /home/ritesh/rc-car/install/controller/lib/controller
+[0.898s] writing list of installed files to '/home/ritesh/rc-car/build/controller/install.log'
+[0.917s] Invoked command in '/home/ritesh/rc-car/ros2/src/controller' returned '0': PYTHONPATH=/home/ritesh/rc-car/build/controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/controller build --build-base /home/ritesh/rc-car/build/controller/build install --record /home/ritesh/rc-car/build/controller/install.log --single-version-externally-managed install_data

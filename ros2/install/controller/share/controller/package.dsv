@@ -1,0 +1,3 @@
+source;share/controller/hook/pythonpath.ps1
+source;share/controller/hook/pythonpath.dsv
+source;share/controller/hook/pythonpath.sh

@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/ritesh/rc-car/ros2ws/eufs_msgs" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:14571: cmake_check_build_system] Error 1

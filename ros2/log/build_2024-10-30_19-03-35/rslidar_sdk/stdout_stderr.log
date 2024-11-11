@@ -1,0 +1,21 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+In file included from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.cpp:33[m[K:
+[01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:[m[K [01;31m[Kfatal error: [m[Krs_driver/common/rs_log.hpp: No such file or directory
+   35 | #include [01;31m[K"rs_driver/common/rs_log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:90: CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35[m[K,
+                 from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/node/rslidar_sdk_node.cpp:33[m[K:
+[01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:[m[K [01;31m[Kfatal error: [m[Krs_driver/common/rs_log.hpp: No such file or directory
+   35 | #include [01;31m[K"rs_driver/common/rs_log.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:76: CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rslidar_sdk_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

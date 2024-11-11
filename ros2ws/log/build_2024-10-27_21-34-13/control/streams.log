@@ -1,0 +1,21 @@
+[0.816s] Invoking command in '/home/ritesh/rc-car/ros2ws/src/control': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ritesh/rc-car/ros2ws/build/control/build install --record /home/ritesh/rc-car/ros2ws/build/control/install.log --single-version-externally-managed install_data
+[1.051s] running egg_info
+[1.052s] writing ../../build/control/control.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[1.053s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[1.053s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[1.053s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[1.056s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.056s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.056s] running build
+[1.056s] running build_py
+[1.056s] running install
+[1.057s] running install_lib
+[1.058s] running install_data
+[1.058s] running install_egg_info
+[1.059s] removing '/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.061s] Copying ../../build/control/control.egg-info to /home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[1.061s] running install_scripts
+[1.085s] Installing give_control script to /home/ritesh/rc-car/ros2ws/install/control/lib/control
+[1.085s] writing list of installed files to '/home/ritesh/rc-car/ros2ws/build/control/install.log'
+[1.115s] Invoked command in '/home/ritesh/rc-car/ros2ws/src/control' returned '0': PYTHONPATH=/home/ritesh/rc-car/ros2ws/build/control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/ritesh/rc-car/ros2ws/build/control/build install --record /home/ritesh/rc-car/ros2ws/build/control/install.log --single-version-externally-managed install_data

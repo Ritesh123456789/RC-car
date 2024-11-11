@@ -1,0 +1,45 @@
+[0.015s] Invoking command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ritesh/rc-car/ros2/build/rslidar_sdk -- -j8 -l8
+[0.044s] [0m=============================================================[0m
+[0.044s] [0m-- POINT_TYPE is XYZI[0m
+[0.045s] [0m=============================================================[0m
+[0.054s] [0m=============================================================[0m
+[0.054s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0.055s] [0m=============================================================[0m
+[0.190s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.192s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.197s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.324s] [0m=============================================================[0m
+[0.325s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.325s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0.325s] [0m=============================================================[0m
+[0.346s] -- Found rslidar_msg: 0.0.0 (/home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake)
+[0.417s] -- Configuring done
+[0.429s] -- Generating done
+[0.432s] -- Build files have been written to: /home/ritesh/rc-car/ros2/build/rslidar_sdk
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[0.469s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[0.648s] In file included from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37[m[K,
+[0.648s]                  from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35[m[K,
+[0.648s]                  from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.cpp:33[m[K:
+[0.648s] [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:[m[K [01;31m[Kfatal error: [m[Krs_driver/common/rs_log.hpp: No such file or directory
+[0.648s]    35 | #include [01;31m[K"rs_driver/common/rs_log.hpp"[m[K
+[0.648s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.649s] compilation terminated.
+[0.649s] In file included from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/yaml_reader.hpp:37[m[K,
+[0.649s]                  from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/manager/node_manager.hpp:35[m[K,
+[0.649s]                  from [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/node/rslidar_sdk_node.cpp:33[m[K:
+[0.649s] [01m[K/home/ritesh/rc-car/ros2/src/rslidar_sdk/src/utility/common.hpp:35:10:[m[K [01;31m[Kfatal error: [m[Krs_driver/common/rs_log.hpp: No such file or directory
+[0.649s]    35 | #include [01;31m[K"rs_driver/common/rs_log.hpp"[m[K
+[0.649s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.649s] compilation terminated.
+[0.649s] gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:90: CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o] Error 1
+[0.649s] gmake[2]: *** Waiting for unfinished jobs....
+[0.652s] gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:76: CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o] Error 1
+[0.653s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rslidar_sdk_node.dir/all] Error 2
+[0.653s] gmake: *** [Makefile:146: all] Error 2
+[0.656s] Invoked command in '/home/ritesh/rc-car/ros2/build/rslidar_sdk' returned '2': AMENT_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib PYTHONPATH=/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ritesh/rc-car/ros2/build/rslidar_sdk -- -j8 -l8

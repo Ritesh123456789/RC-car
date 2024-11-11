@@ -1,0 +1,21 @@
+[0.535s] Invoking command in '/home/ritesh/rc-car/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/ritesh/rc-car/ros2_ws/build/my_robot_controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ritesh/rc-car/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[0.715s] running develop
+[0.716s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.716s]   warnings.warn(
+[0.819s] running egg_info
+[0.819s] writing my_robot_controller.egg-info/PKG-INFO
+[0.819s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[0.819s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[0.819s] writing requirements to my_robot_controller.egg-info/requires.txt
+[0.819s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[0.821s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[0.847s] running build_ext
+[0.847s] Creating /home/ritesh/rc-car/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.848s] Installing test_node script to /home/ritesh/rc-car/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[0.848s] 
+[0.848s] Installed /home/ritesh/rc-car/ros2_ws/build/my_robot_controller
+[0.848s] running symlink_data
+[0.848s] symbolically linking /home/ritesh/rc-car/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/ritesh/rc-car/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.848s] symbolically linking /home/ritesh/rc-car/ros2_ws/build/my_robot_controller/package.xml -> /home/ritesh/rc-car/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[0.872s] Invoked command in '/home/ritesh/rc-car/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/ritesh/rc-car/ros2_ws/build/my_robot_controller/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ritesh/rc-car/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ritesh/rc-car/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.001012] (-) JobUnselected: {'identifier': 'controller'}
+[0.001046] (-) JobUnselected: {'identifier': 'eufs_msgs'}
+[0.001065] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.001083] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ritesh/rc-car/ros2/install/rslidar_msg')])}
+[0.001105] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[0.013402] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[0.013450] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/ritesh/rc-car/ros2/src/rslidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2/install/rslidar_sdk'], 'cwd': '/home/ritesh/rc-car/ros2/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 50616 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/local_libpcap/libpcap-1.10.1'), ('SSH_TTY', '/dev/pts/10'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '585'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_flex/bin:/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:15.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/rslidar_sdk'), ('SSH_CONNECTION', '140.82.222.70 50616 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble')]), 'shell': False}
+[0.078136] (rslidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099779] (-) TimerEvent: {}
+[0.142169] (rslidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.150234] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200485] (-) TimerEvent: {}
+[0.232974] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.241488] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.241934] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.242680] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.246989] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300576] (-) TimerEvent: {}
+[0.337769] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.346564] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.347691] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.347787] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.348670] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.348777] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- POINT_TYPE is XYZI\x1b[0m\n'}
+[0.348846] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.358667] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.358837] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS Not Found. ROS Support is turned Off.\x1b[0m\n'}
+[0.358903] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.400662] (-) TimerEvent: {}
+[0.500955] (-) TimerEvent: {}
+[0.513754] (rslidar_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.601663] (-) TimerEvent: {}
+[0.618283] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.622392] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.628923] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.638151] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.650207] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.683195] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.685369] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701748] (-) TimerEvent: {}
+[0.753951] (rslidar_sdk) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.768139] (rslidar_sdk) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.786041] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.799846] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.802273] (-) TimerEvent: {}
+[0.889973] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.890179] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.902376] (-) TimerEvent: {}
+[0.976846] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.978603] (rslidar_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.002460] (-) TimerEvent: {}
+[1.036914] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.037090] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS2 Found. ROS2 Support is turned On.\x1b[0m\n'}
+[1.037158] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.037928] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.070462] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/ritesh/rc-car/ros2/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[1.087252] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.088729] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- CMake run for UNIX GNU Compiler\x1b[0m\n'}
+[1.088840] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.088912] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.088969] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- rs_driver Version : v1.5.16\x1b[0m\n'}
+[1.089022] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.102537] (-) TimerEvent: {}
+[1.164950] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.175163] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[1.179011] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ritesh/rc-car/ros2/build/rslidar_sdk\n'}
+[1.192377] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[1.193007] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[1.193926] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ritesh/rc-car/ros2/build/rslidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/ritesh/rc-car/ros2/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ritesh'), ('SSH_CLIENT', '140.82.222.70 50616 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/lib:/home/ritesh/rc-car/ros2/install/eufs_msgs/lib:/home/ritesh/local_yaml_cpp/lib:/home/ritesh/local_libpcap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/lib/hsl-install/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ritesh'), ('OLDPWD', '/home/ritesh/local_libpcap/libpcap-1.10.1'), ('SSH_TTY', '/dev/pts/10'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1009/bus'), ('COLCON_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ritesh'), ('WORHP_LICENSE_FILE', '/usr/include/worhp/worhp.lic'), ('EUFS_MASTER', '/home/ritesh/feb-system-integration'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ritesh/local_yaml_cpp/lib/pkgconfig:/home/ritesh/local_libpcap/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('HSL', '/lib/hsl-install/lib/'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '585'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ritesh/local_flex/bin:/home/ritesh/local_bison/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1009'), ('DISPLAY', 'localhost:15.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ritesh/rc-car/ros2/build/rslidar_sdk'), ('SSH_CONNECTION', '140.82.222.70 50616 10.0.0.227 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/eufs_msgs/local/lib/python3.10/dist-packages:/home/ritesh/rc-car/ros2/install/controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '8'), ('COLCON', '1'), ('WORHP', '/usr'), ('CMAKE_PREFIX_PATH', '/home/ritesh/rc-car/ros2/install/rslidar_msg:/home/ritesh/rc-car/ros2/install/eufs_msgs:/opt/ros/humble')]), 'shell': False}
+[1.202619] (-) TimerEvent: {}
+[1.248834] (rslidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[1.249076] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o\x1b[0m\n'}
+[1.305883] (-) TimerEvent: {}
+[1.406225] (-) TimerEvent: {}
+[1.506564] (-) TimerEvent: {}
+[1.607196] (-) TimerEvent: {}
+[1.707864] (-) TimerEvent: {}
+[1.808374] (-) TimerEvent: {}
+[1.912132] (-) TimerEvent: {}
+[2.012466] (-) TimerEvent: {}
+[2.112794] (-) TimerEvent: {}
+[2.213309] (-) TimerEvent: {}
+[2.313819] (-) TimerEvent: {}
+[2.417898] (-) TimerEvent: {}
+[2.518221] (-) TimerEvent: {}
+[2.618546] (-) TimerEvent: {}
+[2.719051] (-) TimerEvent: {}
+[2.819550] (-) TimerEvent: {}
+[2.920054] (-) TimerEvent: {}
+[3.021292] (-) TimerEvent: {}
+[3.123924] (-) TimerEvent: {}
+[3.224250] (-) TimerEvent: {}
+[3.324656] (-) TimerEvent: {}
+[3.424987] (-) TimerEvent: {}
+[3.525355] (-) TimerEvent: {}
+[3.629032] (-) TimerEvent: {}
+[3.729341] (-) TimerEvent: {}
+[3.829675] (-) TimerEvent: {}
+[3.930115] (-) TimerEvent: {}
+[4.030543] (-) TimerEvent: {}
+[4.133903] (-) TimerEvent: {}
+[4.235325] (-) TimerEvent: {}
+[4.335873] (-) TimerEvent: {}
+[4.439351] (-) TimerEvent: {}
+[4.539669] (-) TimerEvent: {}
+[4.639996] (-) TimerEvent: {}
+[4.740316] (-) TimerEvent: {}
+[4.840656] (-) TimerEvent: {}
+[4.943539] (-) TimerEvent: {}
+[5.043871] (-) TimerEvent: {}
+[5.144163] (-) TimerEvent: {}
+[5.244456] (-) TimerEvent: {}
+[5.344798] (-) TimerEvent: {}
+[5.445132] (-) TimerEvent: {}
+[5.546536] (-) TimerEvent: {}
+[5.646842] (-) TimerEvent: {}
+[5.747222] (-) TimerEvent: {}
+[5.848887] (-) TimerEvent: {}
+[5.949166] (-) TimerEvent: {}
+[6.049567] (-) TimerEvent: {}
+[6.149994] (-) TimerEvent: {}
+[6.252089] (-) TimerEvent: {}
+[6.352544] (-) TimerEvent: {}
+[6.452844] (-) TimerEvent: {}
+[6.553125] (-) TimerEvent: {}
+[6.653416] (-) TimerEvent: {}
+[6.753739] (-) TimerEvent: {}
+[6.855213] (-) TimerEvent: {}
+[6.955867] (-) TimerEvent: {}
+[7.056488] (-) TimerEvent: {}
+[7.156837] (-) TimerEvent: {}
+[7.257487] (-) TimerEvent: {}
+[7.358195] (-) TimerEvent: {}
+[7.458887] (-) TimerEvent: {}
+[7.559545] (-) TimerEvent: {}
+[7.660216] (-) TimerEvent: {}
+[7.761447] (-) TimerEvent: {}
+[7.862514] (-) TimerEvent: {}
+[7.962871] (-) TimerEvent: {}
+[8.063799] (-) TimerEvent: {}
+[8.164146] (-) TimerEvent: {}
+[8.264794] (-) TimerEvent: {}
+[8.365151] (-) TimerEvent: {}
+[8.465809] (-) TimerEvent: {}
+[8.566168] (-) TimerEvent: {}
+[8.666847] (-) TimerEvent: {}
+[8.767505] (-) TimerEvent: {}
+[8.867864] (-) TimerEvent: {}
+[8.968322] (-) TimerEvent: {}
+[9.068659] (-) TimerEvent: {}
+[9.169329] (-) TimerEvent: {}
+[9.270009] (-) TimerEvent: {}
+[9.370689] (-) TimerEvent: {}
+[9.471358] (-) TimerEvent: {}
+[9.571956] (-) TimerEvent: {}
+[9.672629] (-) TimerEvent: {}
+[9.773274] (-) TimerEvent: {}
+[9.876050] (-) TimerEvent: {}
+[9.976482] (-) TimerEvent: {}
+[10.077196] (-) TimerEvent: {}
+[10.177865] (-) TimerEvent: {}
+[10.278386] (-) TimerEvent: {}
+[10.379068] (-) TimerEvent: {}
+[10.479406] (-) TimerEvent: {}
+[10.580103] (-) TimerEvent: {}
+[10.680811] (-) TimerEvent: {}
+[10.782171] (-) TimerEvent: {}
+[10.882917] (-) TimerEvent: {}
+[10.984015] (-) TimerEvent: {}
+[11.084645] (-) TimerEvent: {}
+[11.185540] (-) TimerEvent: {}
+[11.286506] (-) TimerEvent: {}
+[11.387154] (-) TimerEvent: {}
+[11.488895] (-) TimerEvent: {}
+[11.589188] (-) TimerEvent: {}
+[11.689508] (-) TimerEvent: {}
+[11.790162] (-) TimerEvent: {}
+[11.890793] (-) TimerEvent: {}
+[11.991445] (-) TimerEvent: {}
+[12.092084] (-) TimerEvent: {}
+[12.193267] (-) TimerEvent: {}
+[12.293927] (-) TimerEvent: {}
+[12.397908] (-) TimerEvent: {}
+[12.401413] (rslidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rslidar_sdk_node\x1b[0m\n'}
+[12.498021] (-) TimerEvent: {}
+[12.514010] (rslidar_sdk) StderrLine: {'line': b'/usr/bin/ld: cannot find -lpcap: No such file or directory\n'}
+[12.598128] (-) TimerEvent: {}
+[12.665109] (rslidar_sdk) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[12.667030] (rslidar_sdk) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rslidar_sdk_node.dir/build.make:201: rslidar_sdk_node] Error 1\n'}
+[12.667494] (rslidar_sdk) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/rslidar_sdk_node.dir/all] Error 2\n'}
+[12.667903] (rslidar_sdk) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.671221] (rslidar_sdk) CommandEnded: {'returncode': 2}
+[12.698197] (-) TimerEvent: {}
+[12.717598] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 2}
+[12.718268] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs__py': /usr/bin/cmake /home/ritesh/rc-car/ros2ws/src/eufs_msgs/eufs_msgs__py -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2ws/install/eufs_msgs__py
+Invoked command in '/home/ritesh/rc-car/ros2ws/build/eufs_msgs__py' returned '1': /usr/bin/cmake /home/ritesh/rc-car/ros2ws/src/eufs_msgs/eufs_msgs__py -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/ros2ws/install/eufs_msgs__py

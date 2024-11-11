@@ -1,0 +1,107 @@
+[0.040s] Invoking command in '/home/ritesh/rc-car/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ritesh/rc-car/ros2/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/rslidar_msg
+[0.875s] -- The C compiler identification is GNU 11.4.0
+[0.875s] -- The CXX compiler identification is GNU 11.4.0
+[0.875s] -- Detecting C compiler ABI info
+[0.875s] -- Detecting C compiler ABI info - done
+[0.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.875s] -- Detecting C compile features
+[0.875s] -- Detecting C compile features - done
+[0.875s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.875s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.876s] -- Detecting CXX compile features
+[0.876s] -- Detecting CXX compile features - done
+[0.876s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.876s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.876s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.876s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.927s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.930s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.084s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.103s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.128s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.139s] -- Looking for pthread.h
+[1.321s] -- Looking for pthread.h - found
+[1.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.518s] -- Found Threads: TRUE  
+[1.613s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.131s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.938s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.939s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.966s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.967s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.967s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.990s] -- Found PythonExtra: .so  
+[3.059s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.084s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.093s] -- Added test 'lint_cmake' to check CMake code style
+[3.098s] -- Added test 'xmllint' to check XML markup files
+[3.106s] -- Configuring done
+[3.146s] -- Generating done
+[3.150s] -- Build files have been written to: /home/ritesh/rc-car/build/rslidar_msg
+[3.165s] Invoked command in '/home/ritesh/rc-car/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ritesh/rc-car/ros2/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/ritesh/rc-car/install/rslidar_msg
+[3.169s] Invoking command in '/home/ritesh/rc-car/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ritesh/rc-car/build/rslidar_msg -- -j8 -l8
+[3.259s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.275s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.308s] [  6%] Built target ament_cmake_python_copy_rslidar_msg
+[3.642s] [  6%] Built target rslidar_msg__cpp
+[3.668s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.671s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.676s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.743s] [ 19%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o[0m
+[3.788s] running egg_info
+[3.789s] creating rslidar_msg.egg-info
+[3.789s] writing rslidar_msg.egg-info/PKG-INFO
+[3.789s] writing dependency_links to rslidar_msg.egg-info/dependency_links.txt
+[3.789s] writing top-level names to rslidar_msg.egg-info/top_level.txt
+[3.790s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.795s] reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.795s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.857s] [ 19%] Built target ament_cmake_python_build_rslidar_msg_egg
+[3.865s] [ 22%] [32m[1mLinking C shared library librslidar_msg__rosidl_generator_c.so[0m
+[3.971s] [ 22%] Built target rslidar_msg__rosidl_generator_c
+[3.998s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.002s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.011s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.049s] [ 35%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[4.071s] [ 38%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o[0m
+[4.078s] [ 41%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o[0m
+[4.395s] [ 45%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o[0m
+[4.487s] [ 48%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[4.501s] [ 51%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o[0m
+[4.509s] [ 54%] [32m[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so[0m
+[4.554s] [ 58%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so[0m
+[4.558s] [ 61%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so[0m
+[4.605s] [ 61%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[4.628s] [ 61%] Built target rslidar_msg__rosidl_typesupport_c
+[4.631s] [ 61%] Built target rslidar_msg__rosidl_typesupport_cpp
+[4.666s] [ 64%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.695s] [ 67%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so[0m
+[4.765s] [ 67%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[4.804s] [ 67%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[4.999s] [ 70%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so[0m
+[5.113s] [ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[5.171s] [ 70%] Built target rslidar_msg
+[5.206s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.667s] [ 74%] Built target rslidar_msg__py
+[5.713s] [ 77%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_py.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o[0m
+[5.849s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__rosidl_generator_py.so[0m
+[5.916s] [ 80%] Built target rslidar_msg__rosidl_generator_py
+[5.979s] [ 83%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.985s] [ 87%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.995s] [ 90%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[6.107s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.166s] [ 93%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[6.172s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.180s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.256s] [100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[6.261s] [100%] Built target rslidar_msg__rosidl_typesupport_c__pyext
