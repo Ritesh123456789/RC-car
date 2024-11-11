@@ -60,3 +60,6 @@ This project contains the codebase that enables an RC car to autonomously naviga
 - Use `rosbags` to record and replay cone and sensor data for debugging and validation.
 - Replay recorded scenarios to fine-tune navigation algorithms.
 
+[![Watch the demo](https://img.youtube.com/vi/DEIfJdPVjL8/0.jpg)](https://youtu.be/DEIfJdPVjL8)
+
+
